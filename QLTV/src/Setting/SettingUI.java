@@ -31,7 +31,7 @@ public class SettingUI {
     public static Point mainScreen_Location_Left=new Point(3, 133);
     public static Point mainScreen_Size=new Point(1063,621);
     public static Point dialog_Location=new Point(mainScreen_Location_Left.x + mainScreen_Size.x,mainScreen_Location_Left.y);
-
+    public static Point cart_Location=new Point(mainScreen_Location_Left.x + mainScreen_Size.x,mainScreen_Location_Left.y+375);
     public static java.util.logging.Logger logger=initializeLogger("Lịch Sử");
     //UI
     public static JButton createRoundedButton(double x,double y,int cornerRadius) {

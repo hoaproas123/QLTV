@@ -725,30 +725,30 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
             // Kiểm tra loại sắp xếp được chọn từ combobox
             if (show_option.equals("choxuly")) {
                 String[] columnName=new String [] {
-                    "Mã Hóa Đơn", "SDT Khách Hàng", "Mã Sách", "Số Lượng", "Ngày Trả", "Số Tiền Còn Lại","Trạng Thái Thanh Toán"
+                    "Mã Hóa Đơn", "SDT Khách Hàng", "Mã Sách", "Số Lượng", "Số Tiền Còn Lại", "Ngày Trả","Trạng Thái Thanh Toán"
                 };
                 settingTable(columnName);
                 // Thực hiện truy vấn cơ sở dữ liệu
                 if(typeSearch.equals("Ngaytra")){
                     rs = dbqr.ExcuQuery_GetTable("HOADONMUON m, HOADONTRA t",
-                        "t."+typeSearch + " like N'%" + searchString + "%' and m.Id=t.Id and Trangthaithanhtoan=0", "m.Id ASC");
+                        "t."+typeSearch + " like N'%" + searchString + "%' and m.Id=t.Id and m.Masach=t.Masach and Trangthaithanhtoan=0", "m.Id ASC");
                 }
                 else{
                     rs = dbqr.ExcuQuery_GetTable("HOADONMUON m, HOADONTRA t",
-                        "m."+typeSearch + " like N'%" + searchString + "%' and m.Id=t.Id and Trangthaithanhtoan=0", "m.Id ASC");
+                        "m."+typeSearch + " like N'%" + searchString + "%' and m.Id=t.Id and m.Masach=t.Masach and Trangthaithanhtoan=0", "m.Id ASC");
                 }
                 
                 // Hiển thị dữ liệu trong bảng
                 tbModel = (DefaultTableModel) jTable1.getModel();
                 while (rs.next()) {
-                    String Data[] = {rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(13), rs.getString(12), rs.getString(14)};
+                    String Data[] = {rs.getString(1), rs.getString(2), rs.getString(3), rs.getString(14), rs.getString(13), rs.getString(15), rs.getString(17)};
                     tbModel.addRow(Data);
                 }
                 logger.log(Level.INFO, "Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 xem d\u1eef li\u1ec7u h\u00f3a \u0111\u01a1n \u0111ang ch\u1edd x\u1eed l\u00fd\n", username);
             }
             if(show_option.equals("hoadonmuon")){
                 String[] columnName=new String [] {
-                    "Mã Hóa Đơn", "SDT Khách Hàng", "Mã Sách", "Giá Thuê", "Ngày Hẹn Trả Sách","Trạng Thái Hóa Đơn"
+                    "Mã Hóa Đơn","SDT Khách Hàng", "Mã Sách","Số Lượng", "Tiền Thanh Toán", "Ngày Hẹn Trả Sách","Trạng Thái Hóa Đơn"
                 };
                 settingTable(columnName);
                 // Thực hiện truy vấn cơ sở dữ liệu
@@ -760,14 +760,14 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
                                                 "m."+typeSearch+" like N'%"+searchString+"%'"
                                                 + " and NOT EXISTS(select *\n" +
                                                                     "from HOADONTRA  t\n" +
-                                                                    "where m.Id=t.Id)",
+                                                                    "where m.Id=t.Id and m.Masach=t.Masach and t.Trangthaihoanthanh=1)",
                                           "Id ASC");
                 }
                 // Hiển thị dữ liệu trong bảng                
                 tbModel=(DefaultTableModel)jTable1.getModel();
                 while(rs.next())
                 {
-                    String Data[] = {rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(5),rs.getString(8),rs.getString(9)};
+                    String Data[] = {rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(6),rs.getString(8),rs.getString(9)};
                     tbModel.addRow(Data);
                 }
                 logger.log(Level.INFO, "Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 xem d\u1eef li\u1ec7u h\u00f3a \u0111\u01a1n m\u01b0\u1ee3n\n", username);
@@ -775,7 +775,7 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
             }
             if(show_option.equals("hoadontra")){
                 String[] columnName=new String [] {
-                    "Mã Hóa Đơn", "Mã Nhân Viên", "Số Tiền Còn lại", "Ngày Trả Sách", "Trạng Thái Thanh Toán"
+                    "Mã Hóa Đơn", "Mã Nhân Viên","Mã Sách", "Số Tiền Còn lại","Số Lượng Trả", "Ngày Trả Sách", "Trạng Thái Hoàn Thành"
                 };
                 settingTable(columnName);
                 // Thực hiện truy vấn cơ sở dữ liệu
@@ -792,7 +792,7 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
                 tbModel=(DefaultTableModel)jTable1.getModel();
                 while(rs.next())
                 {
-                    String Data[] = {rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(4),rs.getString(5)};
+                    String Data[] = {rs.getString(1),rs.getString(3),rs.getString(2),rs.getString(4),rs.getString(5),rs.getString(6),rs.getString(7)};
                     tbModel.addRow(Data);
                 }
                 logger.log(Level.INFO, "Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 xem d\u1eef li\u1ec7u h\u00f3a \u0111\u01a1n tr\u1ea3\n", username);
@@ -806,17 +806,17 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
                 if(typeSearch.equals("Ngaytra"))
                 {
                     rs= dbqr.ExcuQuery_GetTable("HOADONMUON m, HOADONTRA t",
-                                                    "m.Id=t.Id and t.Trangthaithanhtoan=1 and t."+typeSearch+" like N'%"+searchString+"%'","m.Id ASC");
+                                                    "m.Id=t.Id and m.Masach=t.Masach and t.Trangthaithanhtoan=1 and t."+typeSearch+" like N'%"+searchString+"%'","m.Id ASC");
                 }
                 else{
                     rs= dbqr.ExcuQuery_GetTable("HOADONMUON m, HOADONTRA t",
-                                                    "m.Id=t.Id and t.Trangthaithanhtoan=1 and m."+typeSearch+" like N'%"+searchString+"%'","m.Id ASC");
+                                                    "m.Id=t.Id and m.Masach=t.Masach and t.Trangthaithanhtoan=1 and m."+typeSearch+" like N'%"+searchString+"%'","m.Id ASC");
                 }
                 // Hiển thị dữ liệu trong bảng
                 tbModel=(DefaultTableModel)jTable1.getModel();
                 while(rs.next())
                 {
-                    String Data[] = {rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(7),rs.getString(8),rs.getString(13)};
+                    String Data[] = {rs.getString(1),rs.getString(2),rs.getString(3),rs.getString(7),rs.getString(8),rs.getString(15)};
                     tbModel.addRow(Data);
                 }
                 logger.log(Level.INFO, "Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 xem d\u1eef li\u1ec7u h\u00f3a \u0111\u01a1n ho\u00e0n th\u00e0nh\n", username);      
@@ -961,23 +961,24 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
         {
             tbModel=(DefaultTableModel)jTable1.getModel();
             String id=(String)tbModel.getValueAt(jTable1.getSelectedRow(), 0);
-            int choice =JOptionPane.showConfirmDialog(null, "Bạn có chắc muốn xóa hóa đơn "+id +"?", "Xác nhận xóa",2);
+            String masach=(String)tbModel.getValueAt(jTable1.getSelectedRow(), 2);
+            int choice =JOptionPane.showConfirmDialog(null, "Bạn có chắc muốn xóa hóa đơn "+id +"- "+masach+" ?", "Xác nhận xóa",2);
             if(choice==0){
                 if(show_option.equals("choxuly")||show_option.equals("hoadontra")){
-                    dbqr.ExcuQuery_Delete("HOADONTRA","Id="+id);
+                    dbqr.ExcuQuery_Delete("HOADONTRA","Id="+id+" and Masach='"+masach+"'");
                     JOptionPane.showMessageDialog(null, "Xóa thành công!","Thông báo",1);
                     load_Table();
                     logger.log(Level.INFO, "Người dùng "+username+ " \u0111\u00e3 x\u00f3a h\u00f3a \u0111\u01a1n tr\u1ea3 id: {0}\n", id);
                 }
                 if(show_option.equals("hoadonmuon")){
-                    dbqr.ExcuQuery_Delete("HOADONMUON","Id="+id);
+                    dbqr.ExcuQuery_Delete("HOADONMUON","Id="+id+" and Masach='"+masach+"'");
                     JOptionPane.showMessageDialog(null, "Xóa thành công!","Thông báo",1);
                     load_Table();
                     logger.log(Level.INFO, "Người dùng "+username+ " \u0111\u00e3 x\u00f3a h\u00f3a \u0111\u01a1n m\u01b0\u1ee3n id: {0}\n", id);
                 }
                 if(show_option.equals("hoadonhoanthanh")){
-                    dbqr.ExcuQuery_Delete("HOADONTRA","Id="+id);
-                    dbqr.ExcuQuery_Delete("HOADONMUON","Id="+id);
+                    dbqr.ExcuQuery_Delete("HOADONTRA","Id="+id+" and Masach='"+masach+"'");
+                    dbqr.ExcuQuery_Delete("HOADONMUON","Id="+id+" and Masach='"+masach+"'");
                     JOptionPane.showMessageDialog(null, "Xóa thành công!","Thông báo",1);
                     load_Table();
                     logger.log(Level.INFO, "Người dùng "+username+ " \u0111\u00e3 x\u00f3a h\u00f3a \u0111\u01a1n id: {0}\n", id);
@@ -993,18 +994,23 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
         // TODO add your handling code here:
         tbModel = (DefaultTableModel) jTable1.getModel();
         String id=(String) tbModel.getValueAt(jTable1.getSelectedRow(), 0);
+        String masach=(String) tbModel.getValueAt(jTable1.getSelectedRow(), 2);
         int updateState;
         if(show_option.equals("hoadonmuon"))
        {
            if(jToggleButton1.isSelected())
+           {
                updateState=1;
+           }
            else
                updateState=0;
            dbqr.ExcuQuery_Update("HOADONMUON", "Trangthaihoadon="+updateState,"Id="+id);
        }
        else{
            if(jToggleButton1.isSelected())
+           {
                updateState=1;
+           }
            else
                updateState=0;
            ResultSet nv=dbqr.ExcuQuery_GetRow("NHANVIEN","Username='"+username+"'");
@@ -1035,18 +1041,48 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
         String id=(String) tbModel.getValueAt(jTable1.getSelectedRow(), 0);
         if(jToggleButton1.isSelected())
         {
-            jToggleButton1.setText("Đã Thanh Toán");
+            if(show_option.equals("hoadonmuon")){
+                ResultSet hdm=dbqr.ExcuQuery_GetRow("HOADONMUON m", """
+                                                                 NOT EXISTS(select *
+                                                                 from HOADONTRA  t
+                                                                 where m.Id=t.Id and m.Masach=t.Masach and Trangthaihoanthanh=1)
+                                                                 and m.Id="""+id+" and m.Trangthaihoadon=0");
+                int tienthanhtoan=0;
+                try {
+                    while(hdm.next()){
+                        tienthanhtoan+=(int)hdm.getFloat(6);
+                    }
+
+                } catch (SQLException ex) {
+                    Logger.getLogger(QuanLyHoaDon.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                JOptionPane.showMessageDialog(null,"Số tiền thanh toán: "+tienthanhtoan+"VNĐ","Thông báo",1);
+            }
+            else{
+                ResultSet hdt=dbqr.ExcuQuery_GetRow("HOADONTRA", "Id="+id+" and Trangthaithanhtoan=0");
+                int tienconlai=0;
+                try {
+                    while(hdt.next()){
+                        tienconlai+=(int)hdt.getFloat(4);
+                    }
+                } catch (SQLException ex) {
+                    Logger.getLogger(QuanLyHoaDon.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                JOptionPane.showMessageDialog(null,"Số tiền còn lại: "+tienconlai+"VNĐ","Thông báo",1); 
+            }
+           jToggleButton1.setText("Đã Thanh Toán");
         }
         else jToggleButton1.setText("Chưa Thanh Toán");
     }//GEN-LAST:event_jToggleButton1ActionPerformed
 
    private void dialog_setText() {
        tbModel = (DefaultTableModel) jTable1.getModel();
-       String id;
+       String id,masach;
        if (jTable1.getSelectedRowCount() == 1) {
            id=(String) tbModel.getValueAt(jTable1.getSelectedRow(), 0);
+           masach=(String) tbModel.getValueAt(jTable1.getSelectedRow(), 2);
            try {
-               ResultSet hdm=dbqr.ExcuQuery_GetRow("HOADONMUON", "Id= "+id);
+               ResultSet hdm=dbqr.ExcuQuery_GetRow("HOADONMUON", "Id= "+id+" and Masach='"+masach+"'");
                hdm.next();
                ResultSet hdt; 
                ResultSet sach=dbqr.ExcuQuery_GetRow("SACH", "Masach= '"+hdm.getString(3)+"'"); 
@@ -1069,9 +1105,9 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
                }
                else{
                    jLabel6.setText("Trạng Thái Thanh Toán Id:"+id);
-                   hdt=dbqr.ExcuQuery_GetRow("HOADONTRA", "Id= "+hdm.getInt(1));
+                   hdt=dbqr.ExcuQuery_GetRow("HOADONTRA", "Id= "+hdm.getInt(1)+"and Masach='"+hdm.getString(3)+"'");
                    hdt.next();
-                   int stateHD=hdt.getInt(5);
+                   int stateHD=hdt.getInt(8);
                    if(stateHD==0)
                    {
                        jToggleButton1.setSelected(false);
@@ -1083,8 +1119,8 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
                    }
                }
                // Dialog chi tiết
-               hdt=dbqr.ExcuQuery_GetRow("HOADONTRA", "Id= "+hdm.getInt(1)); 
-               jLabel_ChiTietBox_Id.setText(id);
+               hdt=dbqr.ExcuQuery_GetRow("HOADONTRA", "Id= "+hdm.getInt(1)+" and Masach='"+hdm.getString(3)+"'"); 
+               jLabel_ChiTietBox_Id.setText(id+"-"+masach);
                jTextPane_ChiTietBox_Sach.setText("Mã Sách: "+sach.getString(1)+"\nTên Sách: " + sach.getString(3) + "\n"
                        + "Tên Tác Giả: " + sach.getString(4) + "\n" + "Nhà Xuất Bản: " + sach.getString(5)
                        + "\n" + "Giá Sách: " + String.valueOf((int) sach.getFloat(10)));
@@ -1099,16 +1135,19 @@ public class QuanLyHoaDon extends javax.swing.JFrame{
                        + "Tuổi: " + kh.getInt(3));
                if(hdt.next())
                {
-                   ResultSet nv=dbqr.ExcuQuery_GetRow("NHANVIEN", "Id= '"+hdt.getString(2)+"'");
+                   ResultSet nv=dbqr.ExcuQuery_GetRow("NHANVIEN", "Id= '"+hdt.getString(3)+"'");
                    if(nv.next()){
                        jTextPane_ChiTietBox_NhanVien.setText("Nhân Viên Thực Hiện: " + nv.getString(1)
                        + "\n" + "Họ Tên: " + nv.getString(3) 
                        + "\n" + "Số Điện Thoại: " + nv.getString(4));
                    }
                    else jTextPane_ChiTietBox_NhanVien.setText("Đang Chờ Xử Lý");
-                   state= hdt.getInt(5)==0 ? "Chưa Thanh Toán" : "Đã Thanh Toán";
-                   jTextPane_ChiTietBox_HDTra.setText("Số Tiền Còn Lại: " + String.valueOf((int) hdt.getFloat(3))
-                       + "\n" + "Ngày Trả Sách: " + hdt.getString(4) 
+                   state= hdt.getInt(8)== 1 ? "Đã Thanh Toán" : "Chưa Thanh Toán";
+                   String stateHT=hdt.getInt(7)== 1 ? "Đã Hoàn Thành" : "Chưa Hoàn Thành";
+                   jTextPane_ChiTietBox_HDTra.setText("Số Lượng Trả: " + hdt.getInt(5)
+                       + "\n" + "Số Tiền Còn Lại: " + String.valueOf((int) hdt.getFloat(4))
+                       + "\n" + "Ngày Trả Sách: " + hdt.getString(6) 
+                       + "\n" + "Trạng Thái Hoàn Thành: " + stateHT
                        + "\n" + "Trạng Thái Thanh Toán: " + state);
                }
                else{

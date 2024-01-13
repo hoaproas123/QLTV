@@ -297,9 +297,9 @@ public class QuanLyDoanhThu extends javax.swing.JFrame{
         ResultSet hoadonchuatra=dbqr.ExcuQuery_GetRow("count(*) as count", "HOADONMUON m", """
                                                                                            not EXISTS(select *
                                                                                            from HOADONTRA t
-                                                                                           where m.Id=t.Id)""");
-        ResultSet hoadonchuathanhtoan=dbqr.ExcuQuery_GetRow("count(*) as count", "HOADONMUON m,HOADONTRA t", "m.Id=t.Id and t.Trangthaithanhtoan=0");
-        ResultSet hoadonhoanthanh=dbqr.ExcuQuery_GetRow("count(*) as count", "HOADONMUON m,HOADONTRA t", "m.Id=t.Id and t.Trangthaithanhtoan=1"); 
+                                                                                           where m.Id=t.Id and m.Masach=t.Masach)""");
+        ResultSet hoadonchuathanhtoan=dbqr.ExcuQuery_GetRow("count(*) as count", "HOADONMUON m,HOADONTRA t", "m.Id=t.Id and m.Masach=t.Masach and t.Trangthaithanhtoan=0");
+        ResultSet hoadonhoanthanh=dbqr.ExcuQuery_GetRow("count(*) as count", "HOADONMUON m,HOADONTRA t", "m.Id=t.Id and m.Masach=t.Masach and t.Trangthaithanhtoan=1"); 
         DefaultPieDataset dataset=new DefaultPieDataset();
         try {
             hoadonchuatra.next();
@@ -366,7 +366,7 @@ public class QuanLyDoanhThu extends javax.swing.JFrame{
     {
         ResultSet doanhthungay=dbqr.ExcuQuery_GetRow("SUM(m.Tienthanhtoan),SUM(t.Sotienconlai),t.Ngaytra",
                                                     "HOADONMUON m, HOADONTRA t", """
-                                                                                 m.Id=t.Id and t.Trangthaithanhtoan=1
+                                                                                 m.Id=t.Id and m.Masach=t.Masach and t.Trangthaithanhtoan=1
                                                                                  group by t.Ngaytra
                                                                                  order by t.Ngaytra ASC""");
         // Tạo XYSeries để lưu trữ dữ liệu
@@ -448,7 +448,7 @@ public class QuanLyDoanhThu extends javax.swing.JFrame{
     {
         ResultSet doanhthungay=dbqr.ExcuQuery_GetRow("SUM(m.Tienthanhtoan),SUM(t.Sotienconlai),t.Ngaytra",
                                                     "HOADONMUON m, HOADONTRA t", """
-                                                                                 m.Id=t.Id and t.Trangthaithanhtoan=1
+                                                                                 m.Id=t.Id and m.Masach=t.Masach and t.Trangthaithanhtoan=1
                                                                                  group by t.Ngaytra
                                                                                  order by t.Ngaytra ASC""");
         DefaultCategoryDataset dataset = new DefaultCategoryDataset();

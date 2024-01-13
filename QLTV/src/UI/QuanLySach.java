@@ -1,4 +1,4 @@
-/*
+    /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms    @Override
     public void paintBorder(Component c, Graphics g, int x, int y, int width, int height) {
@@ -51,19 +51,22 @@ public class QuanLySach extends javax.swing.JFrame{
     /**
      * Creates new form DangNhap
      */
-    private final ImageIcon img_Back;
+    private final ImageIcon img_Back,img_Cart,img_addCart;
     private final String role=DangNhap.Role;
-    private DefaultTableModel tbModel;
+    private DefaultTableModel tbModel,tbModel2;
     private final int image_Width=292;
     private final DbQuery dbqr=new DbQuery();
     private ResultSet rs;
-    private String dialog_Opened="";
+    private String dialog_Opened="",cart_Opened="";
     private final String username=DangNhap.Username;
     private static final Logger logger = Setting.SettingUI.logger;
 
     public QuanLySach() {
         img_Back=new ImageIcon(new ImageIcon(getClass().getResource("/Image/backicon.png")).getImage().getScaledInstance(45, 25, Image.SCALE_SMOOTH));
+        img_Cart=new ImageIcon(new ImageIcon(getClass().getResource("/Image/carticon.png")).getImage().getScaledInstance(45, 40, Image.SCALE_SMOOTH));
+        img_addCart=new ImageIcon(new ImageIcon(getClass().getResource("/Image/addicon.png")).getImage().getScaledInstance(30, 25, Image.SCALE_SMOOTH));
         initComponents();
+        clear_Data();
         setRole(role);
         load_Table();
     }
@@ -115,6 +118,10 @@ public class QuanLySach extends javax.swing.JFrame{
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jTextField_TraSachBox_SDT = new javax.swing.JTextField();
+        jLabel27 = new javax.swing.JLabel();
+        jTextField_TraSachBox_Soluong = new javax.swing.JTextField();
+        btn_TraSachBox_Cart = Setting.SettingUI.createRoundedButton(0.5,0.5,20);
+        btn_TraSachBox_AddCart = Setting.SettingUI.createRoundedButton(0.5,0.5,20);
         jFrame_CapNhatThem_dialog = new javax.swing.JFrame();
         jPanel_CapNhatThemBox = new javax.swing.JPanel();
         btn_CapNhatThemBox_CapNhat = Setting.SettingUI.createRoundedButton(0.5,0.5,20);
@@ -159,6 +166,14 @@ public class QuanLySach extends javax.swing.JFrame{
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
         jSpinner_ThongTinHoaDonBox_NgayHen = new javax.swing.JSpinner();
+        btn_ThongTinHoaDonBox_Cart = Setting.SettingUI.createRoundedButton(0.5,0.5,20);
+        btn_ThongTinHoaDonBox_AddCart = Setting.SettingUI.createRoundedButton(0.5,0.5,20);
+        jFrame_Cart_dialog = new javax.swing.JFrame();
+        jPanel_CartBox = new javax.swing.JPanel();
+        btn_CartBox_deleteItem = Setting.SettingUI.createRoundedButton(0.5,0.5,20);
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        jLabel_thanhtien = new javax.swing.JLabel();
         jPanel_ChucNang_main = new javax.swing.JPanel();
         jSeparator1 = new javax.swing.JSeparator();
         jSeparator2 = new javax.swing.JSeparator();
@@ -540,8 +555,9 @@ public class QuanLySach extends javax.swing.JFrame{
         );
 
         jFrame_TraSach_dialog.setLocation(Setting.SettingUI.dialog_Location);
-        jFrame_TraSach_dialog.setMinimumSize(new java.awt.Dimension(466, 213));
+        jFrame_TraSach_dialog.setMinimumSize(new java.awt.Dimension(466, 248));
         jFrame_TraSach_dialog.setUndecorated(true);
+        jFrame_TraSach_dialog.setPreferredSize(new java.awt.Dimension(466, 248));
 
         jPanel_TraSachBox.setBackground(new java.awt.Color(255, 138, 20));
         jPanel_TraSachBox.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
@@ -562,7 +578,7 @@ public class QuanLySach extends javax.swing.JFrame{
 
         btn_TraSachBox_close.setBackground(new java.awt.Color(250, 215, 172));
         btn_TraSachBox_close.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
-        btn_TraSachBox_close.setText("Đóng");
+        btn_TraSachBox_close.setText("Hủy");
         btn_TraSachBox_close.setBorderPainted(false);
         btn_TraSachBox_close.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -578,19 +594,50 @@ public class QuanLySach extends javax.swing.JFrame{
 
         jTextField_TraSachBox_SDT.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
 
+        jLabel27.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel27.setText("Số lượng:");
+
+        jTextField_TraSachBox_Soluong.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+
+        btn_TraSachBox_Cart.setBackground(new java.awt.Color(250, 215, 172));
+        btn_TraSachBox_Cart.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        btn_TraSachBox_Cart.setIcon(img_Cart);
+        btn_TraSachBox_Cart.setBorderPainted(false);
+        btn_TraSachBox_Cart.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_TraSachBox_CartActionPerformed(evt);
+            }
+        });
+
+        btn_TraSachBox_AddCart.setBackground(new java.awt.Color(250, 215, 172));
+        btn_TraSachBox_AddCart.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        btn_TraSachBox_AddCart.setIcon(img_addCart);
+        btn_TraSachBox_AddCart.setBorderPainted(false);
+        btn_TraSachBox_AddCart.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_TraSachBox_AddCartActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel_TraSachBoxLayout = new javax.swing.GroupLayout(jPanel_TraSachBox);
         jPanel_TraSachBox.setLayout(jPanel_TraSachBoxLayout);
         jPanel_TraSachBoxLayout.setHorizontalGroup(
             jPanel_TraSachBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel_TraSachBoxLayout.createSequentialGroup()
-                .addGap(90, 90, 90)
-                .addComponent(btn_TraSachBox_close, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
-                .addComponent(btn_TraSachBox_TraSach)
-                .addGap(90, 90, 90))
             .addGroup(jPanel_TraSachBoxLayout.createSequentialGroup()
                 .addGap(23, 23, 23)
                 .addGroup(jPanel_TraSachBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel_TraSachBoxLayout.createSequentialGroup()
+                        .addComponent(btn_TraSachBox_close, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btn_TraSachBox_Cart, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btn_TraSachBox_AddCart)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 132, Short.MAX_VALUE)
+                        .addComponent(btn_TraSachBox_TraSach))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel_TraSachBoxLayout.createSequentialGroup()
+                        .addComponent(jLabel27, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jTextField_TraSachBox_Soluong))
                     .addGroup(jPanel_TraSachBoxLayout.createSequentialGroup()
                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 108, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -608,15 +655,26 @@ public class QuanLySach extends javax.swing.JFrame{
                 .addGroup(jPanel_TraSachBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jTextField_TraSachBox_MaSach, javax.swing.GroupLayout.DEFAULT_SIZE, 43, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel_TraSachBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jTextField_TraSachBox_SDT, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(13, 13, 13)
                 .addGroup(jPanel_TraSachBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_TraSachBox_TraSach, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn_TraSachBox_close, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(22, 22, 22))
+                    .addComponent(jTextField_TraSachBox_Soluong, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGroup(jPanel_TraSachBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel_TraSachBoxLayout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel_TraSachBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(btn_TraSachBox_close, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel_TraSachBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(btn_TraSachBox_Cart, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(btn_TraSachBox_AddCart, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                    .addGroup(jPanel_TraSachBoxLayout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn_TraSachBox_TraSach, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(16, 16, 16))
         );
 
         javax.swing.GroupLayout jFrame_TraSach_dialogLayout = new javax.swing.GroupLayout(jFrame_TraSach_dialog.getContentPane());
@@ -872,7 +930,7 @@ public class QuanLySach extends javax.swing.JFrame{
         );
 
         jFrame_ThongTinHoaDon_dialog.setLocation(Setting.SettingUI.dialog_Location);
-        jFrame_ThongTinHoaDon_dialog.setMinimumSize(new java.awt.Dimension(466, 395));
+        jFrame_ThongTinHoaDon_dialog.setMinimumSize(new java.awt.Dimension(466, 377));
         jFrame_ThongTinHoaDon_dialog.setUndecorated(true);
 
         jPanel_CapNhatThemBox1.setBackground(new java.awt.Color(255, 138, 20));
@@ -944,46 +1002,70 @@ public class QuanLySach extends javax.swing.JFrame{
         jSpinner_ThongTinHoaDonBox_NgayHen.setEditor(new javax.swing.JSpinner.DateEditor(jSpinner_ThongTinHoaDonBox_NgayHen, "dd/MM/yyyy"));
         jSpinner_ThongTinHoaDonBox_NgayHen.setName(""); // NOI18N
 
+        btn_ThongTinHoaDonBox_Cart.setBackground(new java.awt.Color(250, 215, 172));
+        btn_ThongTinHoaDonBox_Cart.setIcon(img_Cart);
+        btn_ThongTinHoaDonBox_Cart.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        btn_ThongTinHoaDonBox_Cart.setBorderPainted(false);
+        btn_ThongTinHoaDonBox_Cart.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_ThongTinHoaDonBox_CartActionPerformed(evt);
+            }
+        });
+
+        btn_ThongTinHoaDonBox_AddCart.setBackground(new java.awt.Color(250, 215, 172));
+        btn_ThongTinHoaDonBox_AddCart.setIcon(img_addCart);
+        btn_ThongTinHoaDonBox_AddCart.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        btn_ThongTinHoaDonBox_AddCart.setBorderPainted(false);
+        btn_ThongTinHoaDonBox_AddCart.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_ThongTinHoaDonBox_AddCartActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout jPanel_CapNhatThemBox1Layout = new javax.swing.GroupLayout(jPanel_CapNhatThemBox1);
         jPanel_CapNhatThemBox1.setLayout(jPanel_CapNhatThemBox1Layout);
         jPanel_CapNhatThemBox1Layout.setHorizontalGroup(
             jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel_CapNhatThemBox1Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btn_ThongTinHoaDonBox_Cancel, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(78, 78, 78)
-                        .addComponent(btn_ThongTinHoaDonBox_ThanhToan)
-                        .addGap(42, 42, 42))
+                        .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(327, 327, 327))
                     .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
-                        .addContainerGap()
+                        .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(327, 327, 327))
+                    .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
+                        .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(327, 327, 327))
+                    .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
+                        .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(327, 327, 327))
+                    .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
                         .addGroup(jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
-                                .addComponent(jLabel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btn_ThongTinHoaDonBox_Cancel)
+                                .addGap(18, 18, 18)
+                                .addComponent(btn_ThongTinHoaDonBox_Cart, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jTextField_ThongTinHoaDonBox_Tuoi, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(btn_ThongTinHoaDonBox_AddCart)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btn_ThongTinHoaDonBox_ThanhToan))
                             .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
-                                .addComponent(jLabel22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jTextField_ThongTinHoaDonBox_HoTen, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
-                                .addComponent(jLabel21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jTextField_ThongTinHoaDonBox_SDT, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
-                                .addComponent(jLabel20, javax.swing.GroupLayout.DEFAULT_SIZE, 125, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jTextField_ThongTinHoaDonBox_MaSach, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel_CapNhatThemBox1Layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
                                 .addGroup(jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel24)
                                     .addComponent(jLabel25))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(jTextField_ThongTinHoaDonBox_SoLuong, javax.swing.GroupLayout.DEFAULT_SIZE, 296, Short.MAX_VALUE)
-                                    .addComponent(jSpinner_ThongTinHoaDonBox_NgayHen))))))
-                .addGap(19, 19, 19))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jTextField_ThongTinHoaDonBox_Tuoi, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextField_ThongTinHoaDonBox_HoTen, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextField_ThongTinHoaDonBox_SDT, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jTextField_ThongTinHoaDonBox_MaSach, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                        .addComponent(jTextField_ThongTinHoaDonBox_SoLuong, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addComponent(jSpinner_ThongTinHoaDonBox_NgayHen, javax.swing.GroupLayout.PREFERRED_SIZE, 296, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addGap(61, 61, 61))))
         );
         jPanel_CapNhatThemBox1Layout.setVerticalGroup(
             jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1009,14 +1091,16 @@ public class QuanLySach extends javax.swing.JFrame{
                     .addComponent(jLabel24, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jTextField_ThongTinHoaDonBox_SoLuong, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jSpinner_ThongTinHoaDonBox_NgayHen))
-                .addGap(29, 29, 29)
+                .addGroup(jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jSpinner_ThongTinHoaDonBox_NgayHen, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel_CapNhatThemBox1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn_ThongTinHoaDonBox_Cancel, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(btn_ThongTinHoaDonBox_ThanhToan, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(35, 35, 35))
+                    .addComponent(btn_ThongTinHoaDonBox_ThanhToan, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_ThongTinHoaDonBox_Cart, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btn_ThongTinHoaDonBox_AddCart, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(39, 39, 39))
         );
 
         javax.swing.GroupLayout jFrame_ThongTinHoaDon_dialogLayout = new javax.swing.GroupLayout(jFrame_ThongTinHoaDon_dialog.getContentPane());
@@ -1027,9 +1111,89 @@ public class QuanLySach extends javax.swing.JFrame{
         );
         jFrame_ThongTinHoaDon_dialogLayout.setVerticalGroup(
             jFrame_ThongTinHoaDon_dialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jFrame_ThongTinHoaDon_dialogLayout.createSequentialGroup()
-                .addComponent(jPanel_CapNhatThemBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel_CapNhatThemBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 377, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        jFrame_Cart_dialog.setLocation(Setting.SettingUI.dialog_Location);
+        jFrame_Cart_dialog.setMinimumSize(new java.awt.Dimension(466, 248));
+        jFrame_Cart_dialog.setUndecorated(true);
+
+        jPanel_CartBox.setBackground(new java.awt.Color(255, 138, 20));
+        jPanel_CartBox.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
+        jPanel_CartBox.setMaximumSize(new java.awt.Dimension(466, 254));
+        jPanel_CartBox.setPreferredSize(new java.awt.Dimension(466, 254));
+
+        btn_CartBox_deleteItem.setBackground(new java.awt.Color(250, 215, 172));
+        btn_CartBox_deleteItem.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        btn_CartBox_deleteItem.setText("Xóa");
+        btn_CartBox_deleteItem.setBorderPainted(false);
+        btn_CartBox_deleteItem.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_CartBox_deleteItemActionPerformed(evt);
+            }
+        });
+
+        jTable2.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Tên Sách", "Số lượng"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jTable2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jTable2.getColumnModel().getColumn(0).setPreferredWidth(350);
+        jTable2.getColumnModel().getColumn(1).setPreferredWidth(20);
+        jTable2.setSelectionMode(javax.swing.ListSelectionModel.SINGLE_SELECTION);
+        jScrollPane2.setViewportView(jTable2);
+
+        jLabel_thanhtien.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel_thanhtien.setText("Thành Tiền: ");
+
+        javax.swing.GroupLayout jPanel_CartBoxLayout = new javax.swing.GroupLayout(jPanel_CartBox);
+        jPanel_CartBox.setLayout(jPanel_CartBoxLayout);
+        jPanel_CartBoxLayout.setHorizontalGroup(
+            jPanel_CartBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel_CartBoxLayout.createSequentialGroup()
+                .addGap(3, 3, 3)
+                .addGroup(jPanel_CartBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel_CartBoxLayout.createSequentialGroup()
+                        .addComponent(btn_CartBox_deleteItem, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(51, 51, 51)
+                        .addComponent(jLabel_thanhtien, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 449, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+        jPanel_CartBoxLayout.setVerticalGroup(
+            jPanel_CartBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel_CartBoxLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 172, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel_CartBoxLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btn_CartBox_deleteItem, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel_thanhtien, javax.swing.GroupLayout.DEFAULT_SIZE, 41, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        javax.swing.GroupLayout jFrame_Cart_dialogLayout = new javax.swing.GroupLayout(jFrame_Cart_dialog.getContentPane());
+        jFrame_Cart_dialog.getContentPane().setLayout(jFrame_Cart_dialogLayout);
+        jFrame_Cart_dialogLayout.setHorizontalGroup(
+            jFrame_Cart_dialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel_CartBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+        jFrame_Cart_dialogLayout.setVerticalGroup(
+            jFrame_Cart_dialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel_CartBox, javax.swing.GroupLayout.DEFAULT_SIZE, 248, Short.MAX_VALUE)
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1259,6 +1423,22 @@ public class QuanLySach extends javax.swing.JFrame{
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
+    private void clear_Data()
+    {
+        String today= LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        ResultSet hdm= dbqr.ExcuQuery_GetRow("HOADONMUON", "Ngaymuon<>'"+today+"' and Trangthaihoadon=0");
+        ResultSet hdt= dbqr.ExcuQuery_GetRow("HOADONTRA", "Ngaytra<>'"+today+"' and (Trangthaithanhtoan IS NULL or Trangthaithanhtoan=0)");
+        try {
+            if(hdm.next()){
+                dbqr.ExcuQuery_Delete("HOADONMUON", "Ngaymuon<>'"+today+"' and Trangthaihoadon=0");
+            }
+            if(hdt.next()){
+                dbqr.ExcuQuery_Delete("HOADONTRA", "Ngaytra<>'"+today+"' and (Trangthaithanhtoan IS NULL or Trangthaithanhtoan=0)");     
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 /**
  * Phương thức này thực hiện việc tải dữ liệu từ cơ sở dữ liệu và hiển thị nó trong bảng.
  * Dữ liệu được lấy dựa trên các thông tin nhập từ các thành phần giao diện như combobox và textbox.
@@ -1346,17 +1526,8 @@ public class QuanLySach extends javax.swing.JFrame{
         } catch (SQLException ex) {
             Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
         }
-       if(typeSearch.equals("Noidung")){
-            keyBert(searchString);
-       }
     }   
-    private static native String keybertFunction(String inputText);
-    private String[] keyBert(String textInput){
-        System.load("\\QLTV\\keypert.py");
-        String result = keybertFunction(textInput);
-        String[] lstKeybert = null;
-        return lstKeybert;
-    }
+
     /**
      * Truy vấn và trả về một dòng dữ liệu từ cơ sở dữ liệu dựa trên ID sách cung cấp.
      * 
@@ -1397,6 +1568,22 @@ public class QuanLySach extends javax.swing.JFrame{
 
        // Tạo và trả về ID mới
        return "MS" + newId;
+    }
+    private int get_newIDhd() {
+       int newId = 0;
+
+       // Truy vấn ID cuối cùng từ cơ sở dữ liệu
+       ResultSet hdm = dbqr.ExcuQuery_GetLastRow("HOADONMUON", "Masach like '%%'", "Id DESC");
+
+       try {
+           hdm.next();
+           // Lấy phần số từ ID cuối cùng và tăng giá trị lên 1
+           newId = hdm.getInt(1)+1;
+       } catch (SQLException ex) {
+       }
+
+       // Tạo và trả về ID mới
+       return newId;
     } 
 // btn chức năng
     private void btn_TimKiemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_TimKiemActionPerformed
@@ -1542,6 +1729,7 @@ public class QuanLySach extends javax.swing.JFrame{
         btn_TraSach.setBackground(Setting.SettingUI.btn_colorChange);
         jFrame_TraSach_dialog.setVisible(true); 
         dialog_Opened="trasach";
+        cart_Opened="TraSach";
         logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 d\u00f9ng ch\u1ee9c n\u0103ng tr\u1ea3 s\u00e1ch\n", username);
     }//GEN-LAST:event_btn_TraSachActionPerformed
 
@@ -1581,6 +1769,7 @@ public class QuanLySach extends javax.swing.JFrame{
 
     private void btn_ChiTietBox_ThueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ChiTietBox_ThueActionPerformed
         // TODO add your handling code here:
+        cart_Opened="muonsach";
         if (jTable1.getSelectedRowCount() == 1) {
             try {
                 String masach=(String) tbModel.getValueAt(jTable1.getSelectedRow(), 0);
@@ -1606,55 +1795,74 @@ public class QuanLySach extends javax.swing.JFrame{
         animation_OpenDialog();
         this.setLocation(Setting.SettingUI.mainScreen_Location_Center);
     }//GEN-LAST:event_btn_ChiTietBox_closeActionPerformed
-
+    private float cal_sotienconlai(String masach,int Id,int soluongtra){
+        ResultSet hdm= dbqr.ExcuQuery_GetRow("HOADONMUON m", """
+                                                                 NOT EXISTS(select *
+                                                                 from HOADONTRA  t
+                                                                 where m.Id=t.Id and m.Masach=t.Masach and Trangthaihoanthanh=1)
+                                                                 and m.Masach='"""+masach +"' and m.Id="+Id);
+        Date ngaymuon;
+        Date getngaytra= new Date(System.currentTimeMillis());
+        LocalDate selectdate = getngaytra.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        String ngaytra=selectdate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        float giathue;
+        float tienthanhtoan;
+        float sotienconlai=0;
+        long tongngaymuon;
+        try {
+            if(hdm.next())
+            {
+                tienthanhtoan=hdm.getFloat(6);
+                int soluongmuon=hdm.getInt(4);
+                giathue =hdm.getFloat(5);
+                ngaymuon=hdm.getDate(7);
+                // Tính sự chênh lệch giữa hai timestamp và chuyển thành số ngày
+                tongngaymuon=(getngaytra.getTime() - ngaymuon.getTime()) / (24 * 60 * 60 * 1000);;
+                sotienconlai=(tienthanhtoan*soluongtra)/soluongmuon-((giathue*soluongtra)/soluongmuon)*tongngaymuon;
+                if(sotienconlai<0)
+                    sotienconlai=0;
+            }
+        } catch (SQLException ex) {
+            Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return sotienconlai;
+    }
     @SuppressWarnings("empty-statement")
     private void btn_TraSachBox_TraSachActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_TraSachBox_TraSachActionPerformed
         // TODO add your handling code here:
         if(checkText_isValid(0))
         {
-            String masach=jTextField_TraSachBox_MaSach.getText();
-            String SDT=jTextField_TraSachBox_SDT.getText();
-            ResultSet hdm= dbqr.ExcuQuery_GetRow("HOADONMUON m", """
-                                                                 NOT EXISTS(select *
-                                                                 from HOADONTRA  t
-                                                                 where m.Id=t.Id) and Masach='"""+masach +"' and SDT='"+SDT+"'");
-            Date ngaymuon;
-            Date getngaytra= new Date(System.currentTimeMillis());
-            LocalDate selectdate = getngaytra.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
-            String ngaytra=selectdate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-            int id;
-            float giathue;
-            float tienthanhtoan;
-            float sotienconlai;
-            long tongngaymuon;
+            String SDT_kh=jTextField_TraSachBox_SDT.getText();
+            ResultSet hdt=dbqr.ExcuQuery_GetRow("HOADONTRA hdt, HOADONMUON hdm", 
+                                                        "hdt.Masach=hdm.Masach and "
+                                                        + "hdt.Id=hdm.Id and "
+                                                        + "hdm.SDT='"+SDT_kh+"' and hdt.Trangthaithanhtoan IS NULL");
             try {
-                if(hdm.next())
-                {
-                    id=hdm.getInt(1);
-                    tienthanhtoan=hdm.getFloat(6);
-                    giathue =hdm.getFloat(5);
-                    ngaymuon=hdm.getDate(7);
-                    // Tính sự chênh lệch giữa hai timestamp và chuyển thành số ngày
-                    tongngaymuon=(getngaytra.getTime() - ngaymuon.getTime()) / (24 * 60 * 60 * 1000);;
-                    sotienconlai=tienthanhtoan-(giathue*tongngaymuon);
-                    if(sotienconlai<0)
-                        sotienconlai=0;
-                    dbqr.ExcuQuery_Add(
-                    "INSERT [dbo].[HOADONTRA] ([Id], [Sotienconlai] ,[Ngaytra],[Trangthaithanhtoan]) VALUES ("
-                        + id+","
-                            + sotienconlai+","
-                                    +"CAST(N'" +ngaytra+"' AS DATE),"
-                                        +0+")");
-                    JOptionPane.showMessageDialog(null,"Thông tin đã được tiếp nhận,\nThời gian mượn: "+tongngaymuon+" ngày, \nSố tiền còn lại của bạn là "+(int)sotienconlai+"VNĐ \nĐến quầy thu ngân để trả sách và thanh toán!\nCảm ơn bạn đã sử dụng dịch vụ của Thư Viện Ora","Thông báo",1);
-                    logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 tr\u1ea3 s\u00e1ch, M\u00e3 s\u00e1ch: {1}, Kh\u00e1ch h\u00e0ng tr\u1ea3: {2}\n", new Object[]{username, masach, SDT});
-                    load_Table();
+                if(hdt.next()==false){
+                    trasach_addCart();
+                    hdt=dbqr.ExcuQuery_GetRow("HOADONTRA hdt, HOADONMUON hdm", 
+                                                        "hdt.Masach=hdm.Masach and "
+                                                        + "hdt.Id=hdm.Id and "
+                                                        + "hdm.SDT='"+SDT_kh+"' and hdt.Trangthaithanhtoan IS NULL");
+                    hdt.next();
                 }
-                else JOptionPane.showMessageDialog(null,"Thông tin hóa đơn không tồn tại, vui lòng kiểm tra lại!","Thông báo",1);
+                int id=hdt.getInt(1);
+                dbqr.ExcuQuery_Update("HOADONTRA","Trangthaithanhtoan=0", "Id="+id);
+                float sotienconlai=hdt.getFloat(4);
+                Date ngaymuon=hdt.getDate(15);
+                Date getngaytra= new Date(System.currentTimeMillis());
+                long tongngaymuon=(getngaytra.getTime() - ngaymuon.getTime()) / (24 * 60 * 60 * 1000);
+                while(hdt.next()){
+                    sotienconlai+=hdt.getFloat(4);
+                }
+                if(sotienconlai<0)
+                    sotienconlai=0;
+                JOptionPane.showMessageDialog(null,"Thông tin đã được tiếp nhận,\nThời gian mượn: "+tongngaymuon+" ngày, \nSố tiền còn lại của bạn là "+(int)sotienconlai+"VNĐ \nĐến quầy thu ngân để trả sách và thanh toán!\nCảm ơn bạn đã sử dụng dịch vụ của Thư Viện Ora","Thông báo",1);
+//                logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 tr\u1ea3 s\u00e1ch, M\u00e3 s\u00e1ch: {1}, Kh\u00e1ch h\u00e0ng tr\u1ea3: {2}\n", new Object[]{username, masach, SDT});
+                load_Table();
+                load_Cart();
             } catch (SQLException ex) {
-                Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
             }
-
-            
         }
     }//GEN-LAST:event_btn_TraSachBox_TraSachActionPerformed
 
@@ -1872,6 +2080,119 @@ public class QuanLySach extends javax.swing.JFrame{
     private void btn_ThongTinHoaDonBox_ThanhToanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ThongTinHoaDonBox_ThanhToanActionPerformed
         // TODO add your handling code here:
         if(checkText_isValid(0))
+        {
+            String masach=jTextField_ThongTinHoaDonBox_MaSach.getText();
+            ResultSet sach= dbqr.ExcuQuery_GetRow("SACH s ,SACHTRUNGBAY stb", "s.Masach=stb.Masach and stb.Masach='"+masach+"'");
+            int thanhtien=0, tienthue=0;
+            String SDT=jTextField_ThongTinHoaDonBox_SDT.getText();
+            try {
+                int tienthanhtoan=0,giathue=0;
+                ResultSet cart=dbqr.ExcuQuery_GetRow("HOADONMUON hdm, SACH s", "hdm.Masach=s.Masach and SDT='"+SDT+"' and Trangthaihoadon=0");
+                if(cart.next()==false)
+                {
+                    sach.next();
+                    tienthanhtoan=(int)sach.getFloat(10);
+                    giathue=(int)sach.getFloat(11);
+                    thanhtien+=tienthanhtoan;
+                    tienthue+=giathue;
+                }
+                else{
+                    thanhtien=0;
+                    tienthue=0;
+                    cart=dbqr.ExcuQuery_GetRow("HOADONMUON hdm, SACH s", "hdm.Masach=s.Masach and SDT='"+SDT+"' and Trangthaihoadon=0");
+                    while(cart. next()){
+                        tienthanhtoan=(int)cart.getFloat(6);
+                        giathue=(int)cart.getFloat(5);
+                        thanhtien+=tienthanhtoan;
+                        tienthue+=giathue;
+                    }
+                }
+            } catch (SQLException ex) {
+                Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            int choice =JOptionPane.showConfirmDialog(null, "Số tiền cần thanh toán là "+thanhtien+" VNĐ ,Giá  thuê là "+tienthue+"VNĐ/ngày,Bạn có chắc muốn thanh toán?", "Xác nhận thanh toán",2);
+            if(choice==0){
+                ResultSet cart=dbqr.ExcuQuery_GetRow("HOADONMUON hdm, SACH s", "hdm.Masach=s.Masach and SDT='"+SDT+"' and Trangthaihoadon=0");
+                try {
+                    if(cart.next()==false){
+                        muonsach_addCart();
+                    }
+                    dbqr.ExcuQuery_Update("HOADONMUON", "Trangthaihoadon=1", "SDT='"+SDT+"' and Trangthaihoadon=0");
+                } catch (SQLException ex) {
+//                    Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                load_Table();
+                load_Cart();
+            }
+            else{}
+    //        logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 m\u01b0\u1ee3n s\u00e1ch, M\u00e3 s\u00e1ch: {1}, SDT kh\u00e1ch h\u00e0ng: {2}\n", new Object[]{username, masach, SDT});
+        }
+    }//GEN-LAST:event_btn_ThongTinHoaDonBox_ThanhToanActionPerformed
+
+    private void btn_ThongTinHoaDonBox_CartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ThongTinHoaDonBox_CartActionPerformed
+        // TODO add your handling code here:
+        if(jFrame_Cart_dialog.isValid()==false){
+            btn_ThongTinHoaDonBox_Cart.setBackground(Setting.SettingUI.btn_colorChange);
+            jFrame_Cart_dialog.setLocation(Setting.SettingUI.cart_Location);
+            jFrame_Cart_dialog.setVisible(true);
+            load_Cart();
+        }
+        else{
+            jFrame_Cart_dialog.dispose();
+            btn_ThongTinHoaDonBox_Cart.setBackground(Setting.SettingUI.btn_colorDefault); 
+        }
+    }//GEN-LAST:event_btn_ThongTinHoaDonBox_CartActionPerformed
+    private void load_Cart(){
+        if(tbModel2!=null)
+            tbModel2.setRowCount(0);
+        if(cart_Opened.equals("muonsach")){
+            String SDT_kh=jTextField_ThongTinHoaDonBox_SDT.getText();
+            int thanhtien=0;
+            ResultSet cart=dbqr.ExcuQuery_GetRow("HOADONMUON hdm, SACH s", "hdm.Masach=s.Masach and SDT='"+SDT_kh+"' and Trangthaihoadon=0");
+            try {
+                // Hiển thị dữ liệu trong bảng
+                tbModel2=(DefaultTableModel)jTable2.getModel();
+                while(cart.next()){
+                    int tienthanhtoan=(int)cart.getFloat(6);
+                    thanhtien+=tienthanhtoan;
+                    String Data[] = {cart.getString(12),cart.getString(4)};
+                    tbModel2.addRow(Data);
+                }
+                jLabel_thanhtien.setText("Thành Tiền: "+thanhtien);
+            } catch (SQLException ex) {
+                Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+        else{
+            String SDT_kh=jTextField_TraSachBox_SDT.getText();
+            int sotienconlai=0;
+            ResultSet cart=dbqr.ExcuQuery_GetRow("HOADONTRA hdt, HOADONMUON hdm, SACH s", 
+                                                        "hdt.Masach=s.Masach and "
+                                                                + "hdt.Masach=hdm.Masach and "
+                                                                + "hdt.Id=hdm.Id and "
+                                                        + "hdm.SDT='"+SDT_kh+"' and hdt.Trangthaithanhtoan IS NULL");
+            try {
+                // Hiển thị dữ liệu trong bảng
+                tbModel2=(DefaultTableModel)jTable2.getModel();
+                while(cart.next()){
+                    int tienconlai=(int)cart.getFloat(4);
+                    sotienconlai+=tienconlai;
+                    String Data[] = {cart.getString(20),cart.getString(5)};
+                    tbModel2.addRow(Data);
+                }
+                jLabel_thanhtien.setText("Số Tiền Còn Lại: "+sotienconlai);
+            } catch (SQLException ex) {
+                Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+        
+    }
+    private void btn_ThongTinHoaDonBox_AddCartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_ThongTinHoaDonBox_AddCartActionPerformed
+        // TODO add your handling code here:
+        muonsach_addCart();
+    }//GEN-LAST:event_btn_ThongTinHoaDonBox_AddCartActionPerformed
+    private void muonsach_addCart(){
+        if(checkText_isValid(0))
         {      
             String masach=jTextField_ThongTinHoaDonBox_MaSach.getText();
             String SDT=jTextField_ThongTinHoaDonBox_SDT.getText();
@@ -1896,13 +2217,10 @@ public class QuanLySach extends javax.swing.JFrame{
             LocalDate selectdate = getDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
             String ngayhen=selectdate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
             if(soluong>max)
-                {
-                    JOptionPane.showMessageDialog(null, "Sách trưng bày chỉ còn "+max+", không thể thêm!","Thông báo",2);
-
-                }
+            {
+                JOptionPane.showMessageDialog(null, "Sách trưng bày chỉ còn "+max+", không thể thêm!","Thông báo",2);
+            }
             else{
-                int choice =JOptionPane.showConfirmDialog(null, "Số tiền cần thanh toán là "+(int)tienthanhtoan+" VNĐ ,Giá  thuê là "+(int)giathue+"VNĐ/ngày,Bạn có chắc muốn thanh toán?", "Xác nhận thanh toán",2);
-                if(choice==0){
                 try {
                     if(kh.next()==false)
                     {
@@ -1916,39 +2234,184 @@ public class QuanLySach extends javax.swing.JFrame{
                 } catch (SQLException ex) {
                     Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
                 }
-                dbqr.ExcuQuery_Add(
-                    "INSERT [dbo].[HOADONMUON] ([SDT],[Masach], [Soluong] ,[Giathue],[Tienthanhtoan], [Ngaymuon], [Ngayhen], [Trangthaihoadon]) VALUES ("
-                    + "'"+SDT+"',"
-                        + "'"+masach+"',"
-                            + soluong+","
-                                + giathue+","
-                                    + tienthanhtoan+","
-                                        +"CAST(N'" +ngaymuon+"' AS DATE),"
-                                            + "CAST(N'"+ngayhen+"' AS DATE),"
-                                                +0+")");
-                JOptionPane.showMessageDialog(null,"Thanh toán thành công!\nCảm ơn bạn đã sử dụng dịch vụ của Thư Viện Ora","Thông báo",1);
-                logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 m\u01b0\u1ee3n s\u00e1ch, M\u00e3 s\u00e1ch: {1}, SDT kh\u00e1ch h\u00e0ng: {2}\n", new Object[]{username, masach, SDT});
-                load_Table();
-                }    
-//                String filePath = "momo_transfer_qr_code.png";
-//                displayQRCodeImage(filePath);
+                ResultSet cart_kh = dbqr.ExcuQuery_GetRow("HOADONMUON", "SDT='"+SDT+"' and Trangthaihoadon=0");
+                try {
+                    if(cart_kh.next())
+                    {
+                        int id=cart_kh.getInt(1);
+                        ResultSet s_kh=dbqr.ExcuQuery_GetRow("HOADONMUON", "Id="+id+"and Masach='"+masach+"' and Trangthaihoadon=0");
+                        if(s_kh.next())
+                        {
+                            soluong+= s_kh.getInt(4);
+                            tienthanhtoan+= s_kh.getFloat(6);
+                            giathue+=s_kh.getFloat(5);
+                            dbqr.ExcuQuery_Update("HOADONMUON", "Soluong="+soluong+", Tienthanhtoan="+tienthanhtoan+", Giathue="+giathue, "Id="+id+"and Masach='"+masach+"' and Trangthaihoadon=0");
+                        }
+                        else{
+                            dbqr.ExcuQuery_Add(
+                            "INSERT [dbo].[HOADONMUON] ([Id],[SDT],[Masach], [Soluong] ,[Giathue],[Tienthanhtoan], [Ngaymuon], [Ngayhen], [Trangthaihoadon]) VALUES ("
+                            + id+",'"+SDT+"',"
+                                + "'"+masach+"',"
+                                    + soluong+","
+                                        + giathue+","
+                                            + tienthanhtoan+","
+                                                +"CAST(N'" +ngaymuon+"' AS DATE),"
+                                                    + "CAST(N'"+ngayhen+"' AS DATE),"
+                                                        +0+")");
+                        }
+                        
+                    }
+                    else{
+                        dbqr.ExcuQuery_Add(
+                        "INSERT [dbo].[HOADONMUON] ([Id],[SDT],[Masach], [Soluong] ,[Giathue],[Tienthanhtoan], [Ngaymuon], [Ngayhen], [Trangthaihoadon]) VALUES ("
+                        + get_newIDhd()+",'"+SDT+"',"
+                            + "'"+masach+"',"
+                                + soluong+","
+                                    + giathue+","
+                                        + tienthanhtoan+","
+                                            +"CAST(N'" +ngaymuon+"' AS DATE),"
+                                                + "CAST(N'"+ngayhen+"' AS DATE),"
+                                                    +0+")");
+                    }
+                } catch (SQLException ex) {
+                    Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+                }
             }
-
         }
+        load_Table();
+        load_Cart();
+    }
+    private void btn_CartBox_deleteItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_CartBox_deleteItemActionPerformed
+        // TODO add your handling code here:
+        if( jTable2.getSelectedRowCount()==1)
+        {   
+            
+            tbModel2=(DefaultTableModel)jTable2.getModel();
+            String tensach=(String)tbModel2.getValueAt(jTable2.getSelectedRow(), 0);
+            if(cart_Opened.equals("muonsach"))
+            {    
+                String SDT=jTextField_ThongTinHoaDonBox_SDT.getText();
+                ResultSet s=dbqr.ExcuQuery_GetRow("SACH s, HOADONMUON hdm", "s.Masach=hdm.Masach and hdm.Trangthaihoadon=0 and hdm.SDT='"+SDT+"' and s.Tensach=N'"+tensach+"'");
+                try {   
+                    s.next();
+                    String masach=s.getString(1);
+                    dbqr.ExcuQuery_Delete("HOADONMUON","Masach= '"+masach+"' and Trangthaihoadon=0 and SDT='"+SDT+"'");
+                    System.out.println(masach+"\n"+SDT);
+                    load_Table();
+                    load_Cart();
+                    logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 x\u00f3a 1 cu\u1ed1n S\u00c1CH, m\u00e3 s\u00e1ch {1}\n", new Object[]{username, masach});                
+                } catch (SQLException ex) {
+                    Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex); 
+                }
+            }
+            else{
+                String SDT=jTextField_TraSachBox_SDT.getText();
+                ResultSet s=dbqr.ExcuQuery_GetRow("HOADONMUON hdm, SACH s, HOADONTRA hdt", "hdm.Masach=hdt.Masach and hdm.Id=hdt.Id and s.Masach=hdt.Masach and hdt.Trangthaithanhtoan IS NULL and hdm.SDT='"+SDT+"' and s.Tensach=N'"+tensach+"'");
+                try {   
+                    s.next();
+                    String masach=s.getString(3);
+                    int id=s.getInt(1);
+                    dbqr.ExcuQuery_Delete("HOADONTRA","Masach= '"+masach+"' and Trangthaithanhtoan IS NULL and Id="+id);
+                    load_Table();
+                    load_Cart();
+                    logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 x\u00f3a 1 cu\u1ed1n S\u00c1CH, m\u00e3 s\u00e1ch {1}\n", new Object[]{username, masach});                
+                } catch (SQLException ex) {
+                    Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex); 
+                }
+            }
+            
+        }
+        else JOptionPane.showMessageDialog(null, "Chọn dòng để xóa!","Thông báo",2);
+        
+    }//GEN-LAST:event_btn_CartBox_deleteItemActionPerformed
 
-    }//GEN-LAST:event_btn_ThongTinHoaDonBox_ThanhToanActionPerformed
-//    private static void displayQRCodeImage(String filePath) {
-//        javax.swing.JFrame frame = new javax.swing.JFrame("QR Code Image");
-//        ImageIcon icon = new ImageIcon(filePath);
-//        icon.getImage().getScaledInstance(50, 50, Image.SCALE_SMOOTH);
-//        javax.swing.JLabel label = new javax.swing.JLabel(icon);
-//        frame.setPreferredSize(new java.awt.Dimension(700,700));
-//        frame.add(label);
-//        frame.setDefaultCloseOperation(javax.swing.JFrame.EXIT_ON_CLOSE);
-//        frame.pack();
-//        frame.setLocationRelativeTo(null);
-//        frame.setVisible(true);
-//    }
+    private void btn_TraSachBox_CartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_TraSachBox_CartActionPerformed
+        // TODO add your handling code here:
+        if(jFrame_Cart_dialog.isValid()==false){
+            btn_TraSachBox_Cart.setBackground(Setting.SettingUI.btn_colorChange);
+            jFrame_Cart_dialog.setLocation(new java.awt.Point(1066,381));
+            jFrame_Cart_dialog.setVisible(true);
+            load_Cart();
+        }
+        else{
+            jFrame_Cart_dialog.dispose();
+            btn_TraSachBox_Cart.setBackground(Setting.SettingUI.btn_colorDefault); 
+        }
+    }//GEN-LAST:event_btn_TraSachBox_CartActionPerformed
+
+    private void btn_TraSachBox_AddCartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_TraSachBox_AddCartActionPerformed
+         // TODO add your handling code here:
+         trasach_addCart();
+    }//GEN-LAST:event_btn_TraSachBox_AddCartActionPerformed
+    private void trasach_addCart(){
+        if(checkText_isValid(0))
+        {
+            String masach=jTextField_TraSachBox_MaSach.getText();
+            String SDT=jTextField_TraSachBox_SDT.getText();
+            int soluongtra=Integer.valueOf(jTextField_TraSachBox_Soluong.getText());
+            ResultSet hdm= dbqr.ExcuQuery_GetRow("HOADONMUON m", """
+                                                                 NOT EXISTS(select *
+                                                                 from HOADONTRA  t
+                                                                 where m.Id=t.Id and m.Masach=t.Masach and t.Trangthaihoanthanh=1) and m.Masach='"""+masach +"' and m.SDT='"+SDT+"'");
+            Date getngaytra= new Date(System.currentTimeMillis());
+            LocalDate selectdate = getngaytra.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+            String ngaytra=selectdate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+            int soluongmuon=0;
+            try {
+                if(hdm.next())
+                {
+                    int id=hdm.getInt(1);
+                    soluongmuon=hdm.getInt(4);
+                    ResultSet hdt=dbqr.ExcuQuery_GetRow("HOADONTRA", "Id="+id+" and Masach='"+masach+"'");
+                    int tongsoluongtra=0;
+                    while(hdt.next()){
+                        tongsoluongtra+=hdt.getInt(5);
+                    }
+                    int stateHoanthanh=0;
+                    if(tongsoluongtra+soluongtra<=soluongmuon){
+                        if(tongsoluongtra+soluongtra==soluongmuon)
+                            stateHoanthanh=1;
+                        // Tính sự chênh lệch giữa hai timestamp và chuyển thành số ngày
+                        float sotienconlai=cal_sotienconlai(masach, id, soluongtra);
+                        hdt=dbqr.ExcuQuery_GetRow("HOADONTRA", "Id="+id+" and Masach='"+masach+"' and Ngaytra='"+ngaytra+"'");
+                        if(hdt.next()){
+                            if(hdt.getInt(8)==0){
+                                dbqr.ExcuQuery_Update("HOADONTRA", "Soluong="+(soluongtra+hdt.getInt(5))+
+                                    ", Sotienconlai="+(sotienconlai+hdt.getFloat(4))+
+                                    ", Trangthaihoanthanh="+stateHoanthanh+
+                                     ", Trangthaithanhtoan=null",
+                                    "Id="+id+" and Masach='"+masach+"' and Ngaytra='"+ngaytra+"'");
+                            }
+                            else if(hdt.getInt(8)==1){}
+                            else{
+                                dbqr.ExcuQuery_Update("HOADONTRA", "Soluong="+(soluongtra+hdt.getInt(5))+
+                                    ", Sotienconlai="+(sotienconlai+hdt.getFloat(4))+
+                                    ", Trangthaihoanthanh="+stateHoanthanh,
+                                    "Id="+id+" and Masach='"+masach+"' and Ngaytra='"+ngaytra+"'");
+                            }
+                        }
+                        else{
+                            dbqr.ExcuQuery_Add(
+                            "INSERT [dbo].[HOADONTRA] ([Id],[Masach],[Sotienconlai] ,[Soluong],[Ngaytra],[Trangthaihoanthanh]) VALUES ("
+                                + id+","
+                                    + "'"+masach+"',"
+                                    + sotienconlai+","
+                                            + soluongtra+","
+                                            +"CAST(N'" +ngaytra+"' AS DATE),"
+                                                +stateHoanthanh+")");
+                        }
+                        logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 tr\u1ea3 s\u00e1ch, M\u00e3 s\u00e1ch: {1}, Kh\u00e1ch h\u00e0ng tr\u1ea3: {2}\n", new Object[]{username, masach, SDT});
+                        load_Table();
+                        load_Cart();
+                    }
+                    else JOptionPane.showMessageDialog(null,"Số lượng trả đã vượt quá số lượng mượn, vui lòng kiểm tra lại!","Thông báo",1);
+                }
+                else JOptionPane.showMessageDialog(null,"Thông tin hóa đơn không tồn tại, vui lòng kiểm tra lại!","Thông báo",1);
+            } catch (SQLException ex) {
+                Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        }
+    }
     /**
     * Thiết lập dữ liệu cho các thành phần giao diện trong các hộp thoại "Cập nhật", "Chi tiết", "Trả sách", "Thuê sách" 
     * dựa trên dữ liệu của hàng được chọn trong bảng hoặc trạng thái của hộp thoại "Thêm".
@@ -2059,6 +2522,7 @@ public class QuanLySach extends javax.swing.JFrame{
            btn_TimKiem.setBackground(Setting.SettingUI.btn_colorDefault);
        }
        if (dialog_Opened.equals("trasach")) {
+           jFrame_Cart_dialog.dispose();
            jFrame_TraSach_dialog.dispose();
            btn_TraSach.setBackground(Setting.SettingUI.btn_colorDefault);
        }
@@ -2066,8 +2530,11 @@ public class QuanLySach extends javax.swing.JFrame{
            btn_Xoa.setBackground(Setting.SettingUI.btn_colorDefault);    
        }
        if (dialog_Opened.equals("thuesach")) {
+           jFrame_Cart_dialog.dispose();
+           btn_ThongTinHoaDonBox_Cart.setBackground(Setting.SettingUI.btn_colorDefault); 
            jFrame_ThongTinHoaDon_dialog.dispose();
        }
+
    }
 
     
@@ -2251,6 +2718,15 @@ public class QuanLySach extends javax.swing.JFrame{
            if (Setting.SettingUI.isValidPhoneNumber(SDT) == false) {
                error_String += "Số Điện Thoại- ";
            }
+           try {
+                   int SoLuong = jTextField_TraSachBox_Soluong.getText().equals("") ? -1
+                           : Integer.parseInt(jTextField_TraSachBox_Soluong.getText());
+                   if (SoLuong >= 1500 || SoLuong < 0) {
+                       error_String += "Số Lượng- ";
+                   }
+               } catch (NumberFormatException e) {
+                   error_String += "Số Lượng- ";
+               }
        }
 
        if (dialog_Opened.equals("thuesach")) {
@@ -2350,6 +2826,7 @@ public class QuanLySach extends javax.swing.JFrame{
     private javax.swing.JButton btn_CapNhatThemBox_CapNhat;
     private javax.swing.JButton btn_CapNhatThemBox_Them;
     private javax.swing.JButton btn_CapNhatThemBox_close;
+    private javax.swing.JButton btn_CartBox_deleteItem;
     private javax.swing.JButton btn_ChiTiet;
     private javax.swing.JButton btn_ChiTietBox_Thue;
     private javax.swing.JButton btn_ChiTietBox_close;
@@ -2357,12 +2834,16 @@ public class QuanLySach extends javax.swing.JFrame{
     private javax.swing.JButton btn_SapXepBox_Ok;
     private javax.swing.JButton btn_SapXepBox_close;
     private javax.swing.JButton btn_Them;
+    private javax.swing.JButton btn_ThongTinHoaDonBox_AddCart;
     private javax.swing.JButton btn_ThongTinHoaDonBox_Cancel;
+    private javax.swing.JButton btn_ThongTinHoaDonBox_Cart;
     private javax.swing.JButton btn_ThongTinHoaDonBox_ThanhToan;
     private javax.swing.JButton btn_TimKiem;
     private javax.swing.JButton btn_TimKiemBox_close;
     private javax.swing.JButton btn_TimKiemBox_search;
     private javax.swing.JButton btn_TraSach;
+    private javax.swing.JButton btn_TraSachBox_AddCart;
+    private javax.swing.JButton btn_TraSachBox_Cart;
     private javax.swing.JButton btn_TraSachBox_TraSach;
     private javax.swing.JButton btn_TraSachBox_close;
     private javax.swing.JButton btn_Xoa;
@@ -2372,6 +2853,7 @@ public class QuanLySach extends javax.swing.JFrame{
     private javax.swing.JComboBox<String> jComboBox_SapXepBox_option3;
     private javax.swing.JComboBox<String> jComboBox_TimKiemBox_item;
     private javax.swing.JFrame jFrame_CapNhatThem_dialog;
+    private javax.swing.JFrame jFrame_Cart_dialog;
     private javax.swing.JFrame jFrame_ChiTiet_dialog;
     private javax.swing.JFrame jFrame_SapXep_dialog;
     private javax.swing.JFrame jFrame_ThongTinHoaDon_dialog;
@@ -2395,6 +2877,7 @@ public class QuanLySach extends javax.swing.JFrame{
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel8;
@@ -2404,8 +2887,10 @@ public class QuanLySach extends javax.swing.JFrame{
     private javax.swing.JLabel jLabel_ChiTietBox_Price;
     private javax.swing.JLabel jLabel_ChiTietBox_ViTri;
     private javax.swing.JLabel jLabel_mainTittle;
+    private javax.swing.JLabel jLabel_thanhtien;
     private javax.swing.JPanel jPanel_CapNhatThemBox;
     private javax.swing.JPanel jPanel_CapNhatThemBox1;
+    private javax.swing.JPanel jPanel_CartBox;
     private javax.swing.JPanel jPanel_ChiTietBox;
     private javax.swing.JPanel jPanel_ChiTietBox_Image;
     private javax.swing.JPanel jPanel_ChiTietBox_Name;
@@ -2416,12 +2901,14 @@ public class QuanLySach extends javax.swing.JFrame{
     private javax.swing.JPanel jPanel_TimKiemBox;
     private javax.swing.JPanel jPanel_TraSachBox;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane_CapNhatThemBox_Content;
     private javax.swing.JScrollPane jScrollPane_ChiTietBox_Content;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JSeparator jSeparator2;
     private javax.swing.JSpinner jSpinner_ThongTinHoaDonBox_NgayHen;
     private javax.swing.JTable jTable1;
+    private javax.swing.JTable jTable2;
     private javax.swing.JTextArea jTextArea_CapNhatThemBox_Content;
     private javax.swing.JTextField jTextField_CapNhatThemBox_GiaSach;
     private javax.swing.JTextField jTextField_CapNhatThemBox_Image;
@@ -2441,6 +2928,7 @@ public class QuanLySach extends javax.swing.JFrame{
     private javax.swing.JTextField jTextField_TimKiemBox_searchString;
     private javax.swing.JTextField jTextField_TraSachBox_MaSach;
     private javax.swing.JTextField jTextField_TraSachBox_SDT;
+    private javax.swing.JTextField jTextField_TraSachBox_Soluong;
     private javax.swing.JTextPane jTextPane_ChiTietBox_Content;
     // End of variables declaration//GEN-END:variables
 
