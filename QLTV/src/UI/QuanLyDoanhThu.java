@@ -54,7 +54,7 @@ public class QuanLyDoanhThu extends javax.swing.JFrame{
     private final String role=DangNhap.Role;
     private final DbQuery dbqr=new DbQuery();
     private ResultSet rs;
-    private String show_Option="uathich";
+    private String show_Option="doanhthu";
     private final String username=DangNhap.Username;
     private static final Logger logger = Setting.SettingUI.logger;
     public QuanLyDoanhThu() {
@@ -67,7 +67,7 @@ public class QuanLyDoanhThu extends javax.swing.JFrame{
         jComboBox_month.setVisible(false);
         jLabel2.setVisible(false);
         jComboBox_year.setVisible(false);
-        btn_UaThich.setBackground(Setting.SettingUI.btn_colorChange);            
+        btn_DoanhThu.setBackground(Setting.SettingUI.btn_colorChange);            
     }
 
     /**

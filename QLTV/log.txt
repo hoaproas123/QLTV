@@ -18727,3 +18727,4188 @@ INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
 Jan 13, 2024 2:08:35 PM UI.ChucNang btn_DangXuatActionPerformed
 INFO:  Người dùng hoaproas123 đã đăng xuất
 
+Jan 13, 2024 11:09:52 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 13, 2024 11:09:54 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 13, 2024 11:09:55 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 13, 2024 11:09:57 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 13, 2024 11:09:57 PM UI.ChucNang btn_QuanLyTaiKhoanActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Tài Khoản
+
+Jan 13, 2024 11:09:57 PM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 13, 2024 11:10:01 PM UI.QuanLyTaiKhoan btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 13, 2024 11:10:02 PM UI.ChucNang btn_QuanLyNhanVienActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Nhân Viên
+
+Jan 13, 2024 11:10:02 PM UI.QuanLyNhanVien load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu nhân viên
+
+Jan 13, 2024 11:10:03 PM UI.QuanLyNhanVien btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 13, 2024 11:10:04 PM UI.ChucNang btn_QuanLyKhachHangActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Khách Hàng
+
+Jan 13, 2024 11:10:04 PM UI.QuanLyKhachHang load_Table
+INFO:  Người dùng hoaproas123 đã xem danh sách khách hàng
+
+Jan 13, 2024 11:10:07 PM UI.QuanLyKhachHang btn_SapXepActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng sắp xếp
+
+Jan 13, 2024 11:10:11 PM UI.QuanLyKhachHang btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 13, 2024 11:10:14 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 13, 2024 11:10:14 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 13, 2024 11:10:17 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 13, 2024 11:10:17 PM UI.ChucNang btn_QuanLyNhanVienActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Nhân Viên
+
+Jan 13, 2024 11:10:17 PM UI.QuanLyNhanVien load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu nhân viên
+
+Jan 13, 2024 11:10:20 PM UI.QuanLyNhanVien btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 13, 2024 11:13:26 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 13, 2024 11:13:26 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 13, 2024 11:13:27 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00005
+
+Jan 13, 2024 11:13:29 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00043
+
+Jan 13, 2024 11:13:30 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00043
+
+Jan 13, 2024 11:13:31 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 13, 2024 11:13:32 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 13, 2024 11:17:24 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 13, 2024 11:17:26 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 13, 2024 11:17:49 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 13, 2024 11:17:52 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 13, 2024 11:17:53 PM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 14, 2024 12:26:38 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:26:39 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 12:26:39 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:26:40 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:26:48 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 12:27:16 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:27:17 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 14, 2024 12:27:17 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 12:27:18 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 14, 2024 12:27:23 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 12:27:25 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 12:27:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS01745
+
+Jan 14, 2024 12:27:27 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 14, 2024 12:27:35 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS01745, Khách hàng trả: 0707622862
+
+Jan 14, 2024 12:27:35 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 12:27:44 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 12:27:45 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:27:48 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 12:27:48 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:27:55 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:27:57 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:28:08 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 12:28:21 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:28:22 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:28:23 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 12:28:23 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 14, 2024 12:28:26 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:28:27 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:28:30 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 12:28:39 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:29:27 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 12:29:38 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 14, 2024 12:29:43 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 12:29:45 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 14, 2024 12:29:50 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:31:33 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:31:33 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 12:32:56 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:33:08 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:33:12 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 12:33:14 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:33:17 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 14, 2024 12:33:26 AM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 4
+
+Jan 14, 2024 12:33:26 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:33:28 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:33:29 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 14, 2024 12:33:31 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:33:31 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:33:32 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:33:33 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 14, 2024 12:33:46 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 14, 2024 12:33:49 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 12:33:49 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:33:51 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:33:55 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:33:56 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 14, 2024 12:33:57 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 12:33:58 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 12:34:00 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 12:34:02 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 14, 2024 12:34:02 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 14, 2024 12:34:03 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 14, 2024 12:34:14 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS00059, Khách hàng trả: 0707622862
+
+Jan 14, 2024 12:34:14 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 12:34:27 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 12:34:28 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:34:29 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 12:34:29 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:34:30 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:34:31 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 12:34:32 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:34:33 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 12:34:35 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:34:43 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 14, 2024 12:34:47 AM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 4
+
+Jan 14, 2024 12:34:47 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:34:48 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:34:51 AM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 14, 2024 12:35:40 AM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 1:13:19 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 14, 2024 12:14:30 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 14, 2024 12:19:23 PM UI.ChucNang btn_QuanLyTaiKhoanActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Tài Khoản
+
+Jan 14, 2024 12:19:23 PM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 14, 2024 12:19:26 PM UI.QuanLyTaiKhoan btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:20:40 PM UI.ChucNang btn_QuanLyTaiKhoanActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Tài Khoản
+
+Jan 14, 2024 12:20:40 PM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 14, 2024 12:20:48 PM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 14, 2024 12:20:49 PM UI.QuanLyTaiKhoan btn_ThemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng thêm
+
+Jan 14, 2024 12:20:50 PM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 14, 2024 12:20:50 PM UI.QuanLyTaiKhoan btn_ThemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng thêm
+
+Jan 14, 2024 12:20:51 PM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 14, 2024 12:20:51 PM UI.QuanLyTaiKhoan btn_ThemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng thêm
+
+Jan 14, 2024 12:20:53 PM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 14, 2024 12:20:55 PM UI.QuanLyTaiKhoan btn_ThemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng thêm
+
+Jan 14, 2024 12:20:55 PM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 14, 2024 12:20:56 PM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 14, 2024 12:20:56 PM UI.QuanLyTaiKhoan btn_ThemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng thêm
+
+Jan 14, 2024 12:20:57 PM UI.QuanLyTaiKhoan btn_ThemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng thêm
+
+Jan 14, 2024 12:21:10 PM UI.QuanLyTaiKhoan btn_ThemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng thêm
+
+Jan 14, 2024 12:21:10 PM UI.QuanLyTaiKhoan btn_ThemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng thêm
+
+Jan 14, 2024 12:21:14 PM UI.QuanLyTaiKhoan btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:21:15 PM UI.ChucNang btn_QuanLyTaiKhoanActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Tài Khoản
+
+Jan 14, 2024 12:21:15 PM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 14, 2024 12:21:53 PM UI.QuanLyTaiKhoan btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:21:54 PM UI.ChucNang btn_QuanLyNhanVienActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Nhân Viên
+
+Jan 14, 2024 12:21:54 PM UI.QuanLyNhanVien load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu nhân viên
+
+Jan 14, 2024 12:22:12 PM UI.QuanLyNhanVien btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:22:32 PM UI.ChucNang btn_QuanLyKhachHangActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Khách Hàng
+
+Jan 14, 2024 12:22:32 PM UI.QuanLyKhachHang load_Table
+INFO:  Người dùng hoaproas123 đã xem danh sách khách hàng
+
+Jan 14, 2024 12:22:57 PM UI.QuanLyKhachHang btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:23:26 PM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 14, 2024 12:25:01 PM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:25:04 PM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 14, 2024 12:25:07 PM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:25:09 PM UI.ChucNang btn_QuanLyLichSuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Lịch Sử Thao Tác
+
+Jan 14, 2024 12:25:51 PM UI.LichSu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 12:25:52 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 12:25:52 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:25:55 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:25:56 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:25:56 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:25:57 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 12:25:57 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 14, 2024 12:25:59 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:26:01 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 12:26:01 PM UI.QuanLyHoaDon btn_TimKiemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng tìm kiếm hóa đơn
+
+Jan 14, 2024 12:26:03 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 12:26:15 PM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 14, 2024 1:24:10 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 14, 2024 1:24:11 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 14, 2024 1:24:12 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 1:24:15 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 14, 2024 1:24:20 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 1:24:21 PM UI.ChucNang btn_QuanLyTaiKhoanActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Tài Khoản
+
+Jan 14, 2024 1:24:21 PM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 14, 2024 1:24:22 PM UI.QuanLyTaiKhoan btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 1:24:26 PM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 14, 2024 1:24:28 PM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 1:24:28 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 1:24:28 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 1:24:39 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 1:24:40 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 1:24:42 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 14, 2024 1:24:43 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 1:24:46 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 1:24:58 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 1:25:00 PM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 14, 2024 6:53:13 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 14, 2024 6:53:17 PM UI.ChucNang btn_QuanLyKhachHangActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Khách Hàng
+
+Jan 14, 2024 6:53:17 PM UI.QuanLyKhachHang load_Table
+INFO:  Người dùng hoaproas123 đã xem danh sách khách hàng
+
+Jan 14, 2024 6:53:18 PM UI.QuanLyKhachHang btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết khách hàng
+
+Jan 14, 2024 6:55:25 PM UI.QuanLyKhachHang btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 6:55:27 PM UI.ChucNang btn_QuanLyNhanVienActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Nhân Viên
+
+Jan 14, 2024 6:55:27 PM UI.QuanLyNhanVien load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu nhân viên
+
+Jan 14, 2024 6:56:13 PM UI.QuanLyNhanVien dialog_setText
+INFO: Người dùng hoaproas123 đã xem chi tiết nhân viên id: 225928208
+
+Jan 14, 2024 6:56:13 PM UI.QuanLyNhanVien btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết nhân viên
+
+Jan 14, 2024 7:15:39 PM UI.QuanLyNhanVien btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật nhân viên 
+
+Jan 14, 2024 7:15:46 PM UI.QuanLyNhanVien btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 7:15:53 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 7:15:53 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 7:15:55 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 7:15:56 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 7:15:58 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 7:16:00 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 7:16:02 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 7:19:31 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 7:19:31 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 7:19:31 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 7:19:33 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 7:19:33 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 14, 2024 7:19:34 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 7:19:35 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00005
+
+Jan 14, 2024 7:19:36 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 7:19:38 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:19:39 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 14, 2024 7:19:39 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 14, 2024 7:19:41 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 14, 2024 7:19:42 PM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 14, 2024 7:21:39 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 14, 2024 7:23:12 PM UI.QuanLySach btn_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng thêm sách
+
+Jan 14, 2024 7:25:06 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 14, 2024 7:25:08 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00010
+
+Jan 14, 2024 7:25:19 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00006
+
+Jan 14, 2024 7:25:23 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00010
+
+Jan 14, 2024 7:25:25 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00001
+
+Jan 14, 2024 7:25:27 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 14, 2024 7:25:27 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 14, 2024 7:25:28 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS00821, Khách hàng trả: 0707622862
+
+Jan 14, 2024 7:25:28 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:25:38 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS01745
+
+Jan 14, 2024 7:25:42 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 14, 2024 7:25:43 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS00821, Khách hàng trả: 0707622862
+
+Jan 14, 2024 7:25:43 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:25:45 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 7:25:45 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 7:25:45 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 7:25:46 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 7:25:53 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 7:26:05 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 7:26:07 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 14, 2024 7:26:08 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 7:26:09 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 7:26:11 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:26:13 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 14, 2024 7:26:14 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 14, 2024 7:26:21 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS00821, Khách hàng trả: 0707622862
+
+Jan 14, 2024 7:26:21 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:26:43 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS00821, Khách hàng trả: 0707622862
+
+Jan 14, 2024 7:26:43 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:26:55 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 7:26:56 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 7:26:56 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 7:26:57 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 7:27:00 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 7:27:14 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 7:27:15 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 7:27:17 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 7:32:30 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 7:32:33 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 7:32:33 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 7:32:34 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 7:32:37 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 14, 2024 7:32:39 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 14, 2024 7:32:42 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 14, 2024 7:32:44 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 7:32:48 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 14, 2024 7:32:48 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 7:32:49 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 7:32:50 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:32:51 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 14, 2024 7:32:52 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 14, 2024 7:32:52 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS01745
+
+Jan 14, 2024 7:32:52 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 14, 2024 7:32:55 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 14, 2024 7:32:55 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 14, 2024 7:32:58 PM UI.QuanLySach btn_TimKiemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng tìm kiếm sách
+
+Jan 14, 2024 7:32:59 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:32:59 PM UI.QuanLySach btn_TimKiemBox_searchActionPerformed
+INFO:  Người dùng hoaproas123 đã tìm 1 cuốn sách, Nội dung tìm: MS00821
+
+Jan 14, 2024 7:33:00 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 7:33:02 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 14, 2024 7:33:09 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 7:33:12 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 14, 2024 7:37:54 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 7:37:56 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 7:38:09 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:38:11 PM UI.QuanLySach btn_TimKiemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng tìm kiếm sách
+
+Jan 14, 2024 7:38:15 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:38:15 PM UI.QuanLySach btn_TimKiemBox_searchActionPerformed
+INFO:  Người dùng hoaproas123 đã tìm 1 cuốn sách, Nội dung tìm: 
+
+Jan 14, 2024 7:38:16 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 7:38:18 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 14, 2024 7:38:18 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 14, 2024 7:38:22 PM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 14, 2024 7:38:34 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:38:35 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 14, 2024 7:38:37 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:38:38 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 14, 2024 7:38:38 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:38:39 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 14, 2024 7:38:40 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 14, 2024 7:38:56 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 10:27:10 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 14, 2024 10:27:11 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 14, 2024 10:27:13 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 14, 2024 10:27:13 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 10:27:14 PM UI.QuanLySach btn_TimKiemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng tìm kiếm sách
+
+Jan 14, 2024 10:28:19 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 14, 2024 11:09:52 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 14, 2024 11:09:53 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 14, 2024 11:09:53 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 11:09:54 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 11:09:55 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 14, 2024 11:09:55 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 14, 2024 11:09:56 PM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 14, 2024 11:22:24 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 14, 2024 11:22:25 PM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 15, 2024 10:33:28 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 15, 2024 10:33:29 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 10:33:29 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:33:30 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 10:33:33 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 10:33:40 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 10:33:42 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:33:43 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 10:33:47 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 15, 2024 10:34:39 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:34:40 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 10:34:41 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 10:34:42 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 10:34:44 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 10:34:45 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 15, 2024 10:34:46 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 15, 2024 10:34:46 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 15, 2024 10:34:59 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS00821, Khách hàng trả: 0707622862
+
+Jan 15, 2024 10:34:59 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 10:35:06 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 10:35:09 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:35:17 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 10:35:17 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 10:35:19 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 10:35:20 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 10:35:26 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 15, 2024 10:35:26 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 15, 2024 10:35:30 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:35:32 PM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 15, 2024 10:35:35 PM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:35:36 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 10:35:36 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:35:45 PM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 15, 2024 10:35:55 PM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 7
+
+Jan 15, 2024 10:35:55 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:36:34 PM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 7
+
+Jan 15, 2024 10:36:34 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:36:36 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:36:37 PM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 15, 2024 10:36:50 PM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:36:50 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 10:36:50 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:36:51 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 10:38:48 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:38:49 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 10:38:50 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 10:38:51 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 10:38:53 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 10:38:55 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 15, 2024 10:38:56 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 15, 2024 10:38:56 PM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 15, 2024 10:39:05 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:39:06 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 10:39:06 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:39:07 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 10:39:09 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 15, 2024 10:42:08 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:43:02 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 10:43:03 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 10:43:04 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:43:05 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 10:43:05 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:43:06 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 10:43:08 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:44:23 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 15, 2024 10:44:24 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 10:44:27 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 10:45:30 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:45:31 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 10:45:31 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:45:32 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 10:45:34 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 15, 2024 10:45:42 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 15, 2024 10:45:43 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 10:51:12 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 10:51:13 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 10:51:14 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 15, 2024 10:51:18 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 10:51:21 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 15, 2024 10:54:41 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:54:42 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 10:54:44 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 10:58:08 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 10:58:10 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 10:58:11 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 10:59:27 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 10:59:29 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 10:59:32 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 15, 2024 10:59:32 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 15, 2024 10:59:33 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 15, 2024 10:59:33 PM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 15, 2024 10:59:45 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 15, 2024 10:59:46 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 10:59:50 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 15, 2024 10:59:52 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 10:59:57 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:00:03 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 15, 2024 11:00:05 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 15, 2024 11:00:06 PM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 15, 2024 11:00:20 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:00:23 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 11:00:23 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:00:24 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:00:31 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:00:31 PM UI.QuanLyHoaDon btn_XoaActionPerformed
+INFO: Người dùng hoaproas123 đã xóa hóa đơn mượn id: 8
+
+Jan 15, 2024 11:01:09 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:01:10 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 11:01:11 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:01:12 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 11:01:14 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:01:15 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00001
+
+Jan 15, 2024 11:01:15 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 15, 2024 11:01:16 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 15, 2024 11:01:18 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 11:01:20 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:01:22 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 15, 2024 11:01:25 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:44:40 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:44:41 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 11:44:41 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:44:42 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:44:45 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:44:46 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 11:44:47 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:44:49 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:44:49 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 11:44:49 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:44:50 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:44:58 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 15, 2024 11:45:08 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:45:09 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 11:45:09 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:45:10 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 11:45:12 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:45:12 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:45:14 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 15, 2024 11:45:15 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 15, 2024 11:45:21 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 15, 2024 11:45:21 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:45:26 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:45:28 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:45:29 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 11:45:29 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:45:33 PM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 15, 2024 11:45:38 PM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 6
+
+Jan 15, 2024 11:45:38 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:45:39 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 15, 2024 11:45:44 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:45:45 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 11:45:46 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:45:57 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:45:59 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 11:45:59 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:46:00 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 11:46:01 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:46:02 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 15, 2024 11:46:05 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS01745
+
+Jan 15, 2024 11:46:05 PM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 15, 2024 11:46:17 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:46:18 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:46:21 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00010
+
+Jan 15, 2024 11:46:22 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:46:24 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 15, 2024 11:46:24 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:46:28 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 15, 2024 11:46:29 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 15, 2024 11:46:29 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00001
+
+Jan 15, 2024 11:46:30 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:46:42 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:46:44 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:46:44 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 11:46:45 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:46:45 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:46:47 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:46:48 PM UI.QuanLyHoaDon btn_TimKiemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng tìm kiếm hóa đơn
+
+Jan 15, 2024 11:46:49 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:46:49 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:46:52 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 11:46:52 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 15, 2024 11:46:53 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 11:46:54 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 15, 2024 11:46:54 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 11:46:55 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 15, 2024 11:52:20 PM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 15, 2024 11:52:22 PM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 15, 2024 11:56:31 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 15, 2024 11:56:32 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 11:56:32 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:56:34 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:56:35 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 11:56:36 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:56:36 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:56:47 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 11:56:49 PM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:56:51 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 11:56:52 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:56:53 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00007
+
+Jan 15, 2024 11:56:53 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00007
+
+Jan 15, 2024 11:56:54 PM UI.QuanLySach btn_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng thêm sách
+
+Jan 15, 2024 11:56:57 PM UI.QuanLySach btn_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng thêm sách
+
+Jan 15, 2024 11:56:58 PM UI.QuanLySach btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 15, 2024 11:57:00 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45209
+
+Jan 15, 2024 11:57:00 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45211
+
+Jan 15, 2024 11:57:04 PM UI.QuanLySach btn_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng thêm sách
+
+Jan 15, 2024 11:57:48 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:57:48 PM UI.QuanLySach btn_CapNhatThemBox_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã thêm sách, Mã sách: MS45214
+
+Jan 15, 2024 11:57:52 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 11:57:54 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:57:57 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 15, 2024 11:57:58 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 15, 2024 11:58:00 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 15, 2024 11:58:02 PM UI.QuanLySach btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 15, 2024 11:58:18 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 15, 2024 11:58:18 PM UI.QuanLySach btn_CapNhatThemBox_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã thêm sách trưng bày, Mã sách: MS45214
+
+Jan 15, 2024 11:58:20 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 15, 2024 11:58:21 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 15, 2024 11:58:22 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 11:58:24 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:58:30 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 15, 2024 11:58:36 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:58:40 PM UI.ChucNang btn_QuanLyNhanVienActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Nhân Viên
+
+Jan 15, 2024 11:58:40 PM UI.QuanLyNhanVien load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu nhân viên
+
+Jan 15, 2024 11:58:42 PM UI.QuanLyNhanVien btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:58:42 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 15, 2024 11:58:43 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 15, 2024 11:58:43 PM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 15, 2024 11:58:45 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:58:48 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 15, 2024 11:58:49 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 15, 2024 11:58:49 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 15, 2024 11:58:49 PM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 15, 2024 11:59:02 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:59:07 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:59:15 PM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 15, 2024 11:59:24 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS45214, Khách hàng trả: 0974729224
+
+Jan 15, 2024 11:59:24 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:59:32 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS45214, Khách hàng trả: 0974729224
+
+Jan 15, 2024 11:59:32 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:59:35 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:59:35 PM UI.QuanLySach btn_CartBox_deleteItemActionPerformed
+INFO:  Người dùng hoaproas123 đã xóa 1 cuốn SÁCH, mã sách MS45214
+
+Jan 15, 2024 11:59:36 PM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS45214, Khách hàng trả: 0974729224
+
+Jan 15, 2024 11:59:36 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:59:38 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 15, 2024 11:59:45 PM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 15, 2024 11:59:46 PM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 15, 2024 11:59:46 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:59:49 PM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 15, 2024 11:59:53 PM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 9
+
+Jan 15, 2024 11:59:53 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 15, 2024 11:59:54 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 15, 2024 11:59:55 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 15, 2024 11:59:59 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 15, 2024 11:59:59 PM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:00:00 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:00:00 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:00:01 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:00:11 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:00:13 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:00:14 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:00:15 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:00:16 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:00:17 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 12:00:17 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 12:00:17 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 16, 2024 12:00:17 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 16, 2024 12:00:18 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:00:34 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS45214, Khách hàng trả: 0974729224
+
+Jan 16, 2024 12:00:34 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:00:38 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:00:40 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:00:41 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:00:41 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:00:45 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 12:00:50 AM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 9
+
+Jan 16, 2024 12:00:50 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:00:52 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:00:53 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:00:58 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:01:37 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:01:38 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:01:39 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:01:42 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:01:43 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:01:45 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:01:46 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:01:48 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:01:49 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:01:50 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:01:51 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:01:53 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:02:07 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:02:08 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:02:08 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:02:10 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:03:18 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:03:19 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:03:19 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:03:20 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:03:22 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:03:40 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:03:44 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:03:46 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:03:54 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:03:57 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:04:00 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:04:01 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:06:43 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:06:43 AM UI.QuanLyHoaDon btn_XoaActionPerformed
+INFO: Người dùng hoaproas123 đã xóa hóa đơn id: 9
+
+Jan 16, 2024 12:06:55 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:07:02 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:07:03 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:07:05 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:07:11 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:07:13 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:07:15 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:07:18 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:07:19 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:07:19 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:07:19 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:07:20 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:07:29 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:07:30 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:07:31 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:07:32 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:07:37 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 16, 2024 12:07:42 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 12:07:47 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:07:51 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:08:14 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 12:08:16 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:08:27 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 16, 2024 12:08:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 12:08:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:08:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS01745
+
+Jan 16, 2024 12:08:31 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 12:08:32 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00006
+
+Jan 16, 2024 12:08:34 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:08:35 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:08:36 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:08:37 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:08:38 AM UI.QuanLySach btn_TimKiemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng tìm kiếm sách
+
+Jan 16, 2024 12:08:44 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:08:44 AM UI.QuanLySach btn_TimKiemBox_searchActionPerformed
+INFO:  Người dùng hoaproas123 đã tìm 1 cuốn sách, Nội dung tìm: Tsubasa
+
+Jan 16, 2024 12:08:46 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS19335
+
+Jan 16, 2024 12:08:47 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 12:08:54 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:08:56 AM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 16, 2024 12:09:07 AM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:09:10 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:09:11 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:09:11 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:09:18 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:09:23 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:09:24 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:09:25 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:09:25 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:09:27 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:09:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:09:30 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 12:09:31 AM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng mượn sách
+
+Jan 16, 2024 12:09:32 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:09:44 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 16, 2024 12:09:44 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:09:51 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:09:52 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:09:53 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:09:53 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:09:57 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:10:28 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 12:10:36 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 12:10:43 AM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 6
+
+Jan 16, 2024 12:10:43 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:10:44 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:10:52 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:16:23 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:16:26 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:16:45 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:16:49 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:16:51 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:17:02 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:17:34 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:17:49 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:17:51 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 16, 2024 12:19:16 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:19:16 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:19:17 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:19:17 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:19:18 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:19:22 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:19:33 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:19:33 AM UI.QuanLyHoaDon btn_XoaActionPerformed
+INFO: Người dùng hoaproas123 đã xóa hóa đơn trả id: 6
+
+Jan 16, 2024 12:19:35 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:19:38 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:19:43 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:19:45 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:19:45 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:19:46 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:19:47 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:19:50 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:19:51 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:20:00 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 16, 2024 12:20:00 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:20:15 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:20:16 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:20:16 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:20:17 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:20:18 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:20:18 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:20:19 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:20:23 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:21:44 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:21:44 AM UI.QuanLyHoaDon btn_XoaActionPerformed
+INFO: Người dùng hoaproas123 đã xóa hóa đơn trả id: 6
+
+Jan 16, 2024 12:21:45 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:22:52 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:22:52 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:22:53 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:22:56 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:22:59 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:23:05 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:23:05 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:23:07 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:23:09 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:23:10 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 12:23:10 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 12:23:10 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:23:10 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:23:10 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:23:11 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 12:23:12 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:23:31 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 16, 2024 12:23:31 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:24:03 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:24:03 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:24:03 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:24:05 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:24:06 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:24:10 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:24:10 AM UI.QuanLyHoaDon btn_XoaActionPerformed
+INFO: Người dùng hoaproas123 đã xóa hóa đơn trả id: 6
+
+Jan 16, 2024 12:26:31 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:26:32 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:26:33 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:26:49 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:26:52 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:26:53 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:26:55 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:26:57 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:26:58 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 12:26:58 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 16, 2024 12:26:59 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:27:00 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:27:12 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 16, 2024 12:27:12 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:28:33 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:28:34 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:28:34 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:28:35 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:28:36 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:28:41 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:28:41 AM UI.QuanLyHoaDon btn_XoaActionPerformed
+INFO: Người dùng hoaproas123 đã xóa hóa đơn trả id: 6
+
+Jan 16, 2024 12:28:47 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:28:48 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:28:49 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:28:49 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 12:28:50 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:28:52 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:28:53 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:28:54 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:29:02 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 16, 2024 12:29:02 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:29:35 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:29:35 AM UI.QuanLySach btn_CartBox_deleteItemActionPerformed
+INFO:  Người dùng hoaproas123 đã xóa 1 cuốn SÁCH, mã sách MS02991
+
+Jan 16, 2024 12:29:36 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:29:37 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:29:37 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:29:38 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:31:09 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:31:10 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:31:12 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:31:13 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 16, 2024 12:31:26 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:31:27 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:31:28 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:31:29 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:31:30 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:31:32 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:31:33 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:31:41 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 16, 2024 12:31:41 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:31:51 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:31:52 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:31:52 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:31:53 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:32:36 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:32:36 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:32:42 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:32:42 AM UI.QuanLyHoaDon btn_XoaActionPerformed
+INFO: Người dùng hoaproas123 đã xóa hóa đơn trả id: 6
+
+Jan 16, 2024 12:32:43 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:32:44 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 16, 2024 12:32:56 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:32:57 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:32:57 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:32:58 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:33:02 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:33:02 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:33:03 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:33:03 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:33:05 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:33:06 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:33:06 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:33:17 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 16, 2024 12:33:17 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:33:26 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:33:27 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:33:28 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:33:28 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:33:29 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:34:37 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:34:40 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:34:41 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:34:41 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:34:42 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:34:47 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:34:47 AM UI.QuanLyHoaDon btn_XoaActionPerformed
+INFO: Người dùng hoaproas123 đã xóa hóa đơn trả id: 6
+
+Jan 16, 2024 12:36:14 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:36:16 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:36:16 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:36:17 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:36:17 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:36:21 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:36:22 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 12:36:23 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 12:36:23 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 12:36:25 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:36:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS02991
+
+Jan 16, 2024 12:36:26 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 12:36:35 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng hoaproas123 đã trả sách, Mã sách: MS02991, Khách hàng trả: 0123456789
+
+Jan 16, 2024 12:36:35 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:36:38 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 12:36:40 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:36:41 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:36:41 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:36:42 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:36:46 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:36:48 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 12:37:11 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 12:37:20 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:37:22 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:37:26 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:37:27 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:37:58 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:38:01 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:38:01 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:38:04 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:40:57 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:40:58 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:40:58 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:41:00 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:41:02 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:41:04 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:41:12 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 12:41:14 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:42:11 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 12:42:12 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 12:42:12 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:42:13 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:42:14 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:42:25 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:42:26 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 12:42:32 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 12:43:05 AM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 6
+
+Jan 16, 2024 12:43:05 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 12:43:06 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:43:07 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:43:09 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:43:12 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:43:12 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 12:43:13 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 12:43:14 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 12:43:23 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 12:43:23 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 16, 2024 9:47:21 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 9:47:25 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 9:47:27 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 9:47:32 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00008
+
+Jan 16, 2024 9:47:32 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00008
+
+Jan 16, 2024 9:47:32 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 9:47:36 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00005
+
+Jan 16, 2024 9:47:36 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00007
+
+Jan 16, 2024 9:47:37 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00009
+
+Jan 16, 2024 9:47:37 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00015
+
+Jan 16, 2024 9:47:37 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00015
+
+Jan 16, 2024 9:47:38 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00006
+
+Jan 16, 2024 9:47:38 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00009
+
+Jan 16, 2024 9:47:38 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00011
+
+Jan 16, 2024 9:47:38 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00013
+
+Jan 16, 2024 9:47:38 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00014
+
+Jan 16, 2024 9:47:38 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00015
+
+Jan 16, 2024 9:47:39 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00016
+
+Jan 16, 2024 9:47:39 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00018
+
+Jan 16, 2024 9:47:39 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00019
+
+Jan 16, 2024 9:47:39 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00020
+
+Jan 16, 2024 9:47:39 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00018
+
+Jan 16, 2024 9:47:39 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00018
+
+Jan 16, 2024 9:47:40 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00018
+
+Jan 16, 2024 9:47:40 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00018
+
+Jan 16, 2024 9:47:40 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00025
+
+Jan 16, 2024 9:47:40 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00027
+
+Jan 16, 2024 9:47:40 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00035
+
+Jan 16, 2024 9:47:40 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00042
+
+Jan 16, 2024 9:47:41 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00041
+
+Jan 16, 2024 9:47:41 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00053
+
+Jan 16, 2024 9:47:41 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00057
+
+Jan 16, 2024 9:47:41 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00060
+
+Jan 16, 2024 9:47:41 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 16, 2024 9:47:41 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00075
+
+Jan 16, 2024 9:47:42 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00074
+
+Jan 16, 2024 9:47:42 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00074
+
+Jan 16, 2024 9:47:42 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00095
+
+Jan 16, 2024 9:47:42 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00093
+
+Jan 16, 2024 9:47:42 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00093
+
+Jan 16, 2024 9:47:42 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00105
+
+Jan 16, 2024 9:47:42 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00114
+
+Jan 16, 2024 9:47:42 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00114
+
+Jan 16, 2024 9:47:43 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00122
+
+Jan 16, 2024 9:47:43 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00126
+
+Jan 16, 2024 9:47:44 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00150
+
+Jan 16, 2024 9:47:44 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00150
+
+Jan 16, 2024 9:47:44 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00150
+
+Jan 16, 2024 9:47:44 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00162
+
+Jan 16, 2024 9:47:45 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00166
+
+Jan 16, 2024 9:47:47 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00182
+
+Jan 16, 2024 9:47:47 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00190
+
+Jan 16, 2024 9:47:47 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00190
+
+Jan 16, 2024 9:47:47 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00198
+
+Jan 16, 2024 9:47:47 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00198
+
+Jan 16, 2024 9:47:48 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00202
+
+Jan 16, 2024 9:47:48 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00202
+
+Jan 16, 2024 9:47:48 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00218
+
+Jan 16, 2024 9:47:48 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00218
+
+Jan 16, 2024 9:47:50 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 9:47:50 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 9:47:51 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 9:47:52 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 9:47:53 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn trả
+
+Jan 16, 2024 9:47:53 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 9:47:54 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 9:48:11 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 9:48:12 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 9:48:13 AM UI.QuanLyHoaDon btn_TimKiemActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng tìm kiếm hóa đơn
+
+Jan 16, 2024 9:48:14 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 9:48:15 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 9:48:28 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 9:48:29 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn mượn
+
+Jan 16, 2024 10:31:06 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:31:07 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 16, 2024 10:31:47 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng khachhang đã đăng nhập vào hệ thống
+
+Jan 16, 2024 10:31:49 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng khachhang đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 10:31:49 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:31:53 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00001
+
+Jan 16, 2024 10:31:55 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS01745
+
+Jan 16, 2024 10:31:56 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 10:31:59 AM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng mượn sách
+
+Jan 16, 2024 10:32:24 AM UI.QuanLySach muonsach_addCart
+INFO:  Khách hàng mới đã được thêm vào, Mã khách hàng: 0111111111
+
+Jan 16, 2024 10:32:24 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:32:27 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00010
+
+Jan 16, 2024 10:32:28 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:32:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 10:32:31 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:32:31 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:32:41 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:33:10 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng trả sách
+
+Jan 16, 2024 10:33:22 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng khachhang đã trả sách, Mã sách: MS29134, Khách hàng trả: 0111111111
+
+Jan 16, 2024 10:33:22 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:33:38 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:33:57 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng khachhang trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:34:00 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng khachhang đã đăng xuất
+
+Jan 16, 2024 10:34:12 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 10:34:14 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 10:34:14 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:34:22 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23401
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23404
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23405
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23405
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23406
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23407
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23408
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23408
+
+Jan 16, 2024 10:34:24 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23408
+
+Jan 16, 2024 10:34:25 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23409
+
+Jan 16, 2024 10:34:25 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23411
+
+Jan 16, 2024 10:34:25 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23412
+
+Jan 16, 2024 10:34:25 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23424
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23424
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23424
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23423
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23424
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23424
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23425
+
+Jan 16, 2024 10:34:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23425
+
+Jan 16, 2024 10:34:27 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23437
+
+Jan 16, 2024 10:34:27 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23436
+
+Jan 16, 2024 10:34:27 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23436
+
+Jan 16, 2024 10:34:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23440
+
+Jan 16, 2024 10:34:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23439
+
+Jan 16, 2024 10:34:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23439
+
+Jan 16, 2024 10:34:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23439
+
+Jan 16, 2024 10:34:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:34:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23451
+
+Jan 16, 2024 10:34:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23451
+
+Jan 16, 2024 10:34:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23451
+
+Jan 16, 2024 10:34:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23450
+
+Jan 16, 2024 10:34:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23449
+
+Jan 16, 2024 10:34:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23449
+
+Jan 16, 2024 10:34:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23448
+
+Jan 16, 2024 10:34:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23448
+
+Jan 16, 2024 10:34:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:34:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:34:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:34:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:34:33 AM UI.QuanLySach btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 10:34:44 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:34:44 AM UI.QuanLySach btn_CapNhatThemBox_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã thêm sách trưng bày, Mã sách: MS23447
+
+Jan 16, 2024 10:34:45 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:34:49 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:34:51 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:35:19 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:35:22 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:35:30 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:35:34 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:35:35 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:35:35 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 10:37:29 AM UI.QuanLySach btn_TimKiemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng tìm kiếm sách
+
+Jan 16, 2024 10:37:31 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:37:31 AM UI.QuanLySach btn_TimKiemBox_searchActionPerformed
+INFO:  Người dùng hoaproas123 đã tìm 1 cuốn sách, Nội dung tìm: MS23447
+
+Jan 16, 2024 10:37:42 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:37:42 AM UI.QuanLySach btn_TimKiemBox_searchActionPerformed
+INFO:  Người dùng hoaproas123 đã tìm 1 cuốn sách, Nội dung tìm: 
+
+Jan 16, 2024 10:37:53 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:37:53 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:37:55 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:37:55 AM UI.QuanLySach btn_TimKiemBox_searchActionPerformed
+INFO:  Người dùng hoaproas123 đã tìm 1 cuốn sách, Nội dung tìm: MS23447
+
+Jan 16, 2024 10:37:55 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:37:57 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 10:38:03 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:38:13 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:38:15 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:38:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:38:32 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:38:33 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 10:38:39 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:38:40 AM UI.QuanLySach btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 10:38:41 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 10:38:50 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:38:50 AM UI.QuanLySach btn_CapNhatThemBox_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã cập nhật sách, Mã sách: MS23447
+
+Jan 16, 2024 10:39:02 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:39:04 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 10:39:38 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:39:50 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 10:39:50 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 10:39:54 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 10:40:12 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 10:40:20 AM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 9
+
+Jan 16, 2024 10:40:20 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 10:40:23 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 10:40:25 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 10:40:37 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:40:43 AM UI.ChucNang btn_QuanLyKhachHangActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Khách Hàng
+
+Jan 16, 2024 10:40:43 AM UI.QuanLyKhachHang load_Table
+INFO:  Người dùng hoaproas123 đã xem danh sách khách hàng
+
+Jan 16, 2024 10:40:47 AM UI.QuanLyKhachHang btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết khách hàng
+
+Jan 16, 2024 10:40:53 AM UI.QuanLyKhachHang btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:40:55 AM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 16, 2024 10:41:16 AM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:41:19 AM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 16, 2024 10:41:29 AM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:41:37 AM UI.ChucNang btn_QuanLyNhanVienActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Nhân Viên
+
+Jan 16, 2024 10:41:37 AM UI.QuanLyNhanVien load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu nhân viên
+
+Jan 16, 2024 10:41:41 AM UI.QuanLyNhanVien dialog_setText
+INFO: Người dùng hoaproas123 đã xem chi tiết nhân viên id: 225928208
+
+Jan 16, 2024 10:41:41 AM UI.QuanLyNhanVien dialog_setText
+INFO: Người dùng hoaproas123 đã xem chi tiết nhân viên id: 225928208
+
+Jan 16, 2024 10:41:45 AM UI.QuanLyNhanVien btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết nhân viên
+
+Jan 16, 2024 10:41:54 AM UI.QuanLyNhanVien btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:42:00 AM UI.ChucNang btn_QuanLyTaiKhoanActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Tài Khoản
+
+Jan 16, 2024 10:42:00 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 10:42:16 AM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 16, 2024 10:42:22 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 10:42:22 AM UI.QuanLyTaiKhoan btn_CapNhatThemBox_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật tài khoản nhanvien
+
+Jan 16, 2024 10:42:27 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 10:42:27 AM UI.QuanLyTaiKhoan btn_CapNhatThemBox_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật tài khoản nhanvien
+
+Jan 16, 2024 10:42:36 AM UI.QuanLyTaiKhoan btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:42:43 AM UI.ChucNang btn_QuanLyLichSuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Lịch Sử Thao Tác
+
+Jan 16, 2024 10:42:54 AM UI.LichSu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:43:01 AM UI.ChucNang btn_QuanLyKhachHangActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Khách Hàng
+
+Jan 16, 2024 10:43:01 AM UI.QuanLyKhachHang load_Table
+INFO:  Người dùng hoaproas123 đã xem danh sách khách hàng
+
+Jan 16, 2024 10:43:03 AM UI.QuanLyKhachHang btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 10:43:06 AM UI.QuanLyKhachHang btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:43:08 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 10:43:08 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:43:12 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:51:26 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng khachhang đã đăng nhập vào hệ thống
+
+Jan 16, 2024 10:51:27 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng khachhang đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 10:51:27 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:51:34 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 16, 2024 10:51:35 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 10:51:36 AM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng mượn sách
+
+Jan 16, 2024 10:52:03 AM UI.QuanLySach muonsach_addCart
+INFO:  Khách hàng mới đã được thêm vào, Mã khách hàng: 0222222222
+
+Jan 16, 2024 10:52:03 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:52:08 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 16, 2024 10:52:13 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:52:14 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 16, 2024 10:52:17 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 16, 2024 10:52:22 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:52:29 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:52:54 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng trả sách
+
+Jan 16, 2024 10:52:55 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS45214
+
+Jan 16, 2024 10:53:11 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng khachhang đã trả sách, Mã sách: MS45214, Khách hàng trả: 0222222222
+
+Jan 16, 2024 10:53:11 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:53:18 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 16, 2024 10:53:18 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng khachhang đã trả sách, Mã sách: MS00821, Khách hàng trả: 0222222222
+
+Jan 16, 2024 10:53:18 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:53:36 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:53:39 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng khachhang trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:53:40 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng khachhang đã đăng xuất
+
+Jan 16, 2024 10:53:57 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 10:53:58 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 10:53:59 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:54:02 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33308
+
+Jan 16, 2024 10:54:03 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 10:54:03 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33305
+
+Jan 16, 2024 10:54:04 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33302
+
+Jan 16, 2024 10:54:04 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33301
+
+Jan 16, 2024 10:54:04 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33301
+
+Jan 16, 2024 10:54:04 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33302
+
+Jan 16, 2024 10:54:04 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33304
+
+Jan 16, 2024 10:54:04 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33307
+
+Jan 16, 2024 10:54:04 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33308
+
+Jan 16, 2024 10:54:05 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33309
+
+Jan 16, 2024 10:54:05 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33309
+
+Jan 16, 2024 10:54:05 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33316
+
+Jan 16, 2024 10:54:05 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33320
+
+Jan 16, 2024 10:54:05 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33323
+
+Jan 16, 2024 10:54:05 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33326
+
+Jan 16, 2024 10:54:05 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33326
+
+Jan 16, 2024 10:54:06 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33330
+
+Jan 16, 2024 10:54:06 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33330
+
+Jan 16, 2024 10:54:06 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33338
+
+Jan 16, 2024 10:54:06 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33342
+
+Jan 16, 2024 10:54:06 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33344
+
+Jan 16, 2024 10:54:07 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33345
+
+Jan 16, 2024 10:54:07 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33345
+
+Jan 16, 2024 10:54:07 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33346
+
+Jan 16, 2024 10:54:07 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33347
+
+Jan 16, 2024 10:54:07 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33349
+
+Jan 16, 2024 10:54:07 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33349
+
+Jan 16, 2024 10:54:08 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33348
+
+Jan 16, 2024 10:54:08 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33344
+
+Jan 16, 2024 10:54:08 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33343
+
+Jan 16, 2024 10:54:09 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33343
+
+Jan 16, 2024 10:54:15 AM UI.QuanLySach btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 10:54:27 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:54:27 AM UI.QuanLySach btn_CapNhatThemBox_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã thêm sách trưng bày, Mã sách: MS33343
+
+Jan 16, 2024 10:54:28 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:54:32 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:54:34 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33343
+
+Jan 16, 2024 10:54:43 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 10:54:45 AM UI.QuanLySach btn_TimKiemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng tìm kiếm sách
+
+Jan 16, 2024 10:54:46 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:54:46 AM UI.QuanLySach btn_TimKiemBox_searchActionPerformed
+INFO:  Người dùng hoaproas123 đã tìm 1 cuốn sách, Nội dung tìm: MS33343
+
+Jan 16, 2024 10:54:47 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:54:49 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 10:54:51 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 10:54:54 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:54:56 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 10:55:26 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:55:28 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:55:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33343
+
+Jan 16, 2024 10:55:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33343
+
+Jan 16, 2024 10:55:32 AM UI.QuanLySach btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 10:55:39 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 10:55:39 AM UI.QuanLySach btn_CapNhatThemBox_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã cập nhật sách, Mã sách: MS33343
+
+Jan 16, 2024 10:55:48 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33343
+
+Jan 16, 2024 10:55:48 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS33343
+
+Jan 16, 2024 10:55:49 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:55:50 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 10:55:59 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 10:56:04 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 10:56:22 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:56:22 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 10:56:22 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 10:56:29 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 10:56:42 AM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 10
+
+Jan 16, 2024 10:56:42 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 10:56:44 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 10:56:55 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 10:57:15 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:57:18 AM UI.ChucNang btn_QuanLyKhachHangActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Khách Hàng
+
+Jan 16, 2024 10:57:18 AM UI.QuanLyKhachHang load_Table
+INFO:  Người dùng hoaproas123 đã xem danh sách khách hàng
+
+Jan 16, 2024 10:57:22 AM UI.QuanLyKhachHang btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết khách hàng
+
+Jan 16, 2024 10:57:37 AM UI.QuanLyKhachHang btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:57:39 AM UI.ChucNang btn_QuanLyNhanVienActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Nhân Viên
+
+Jan 16, 2024 10:57:39 AM UI.QuanLyNhanVien load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu nhân viên
+
+Jan 16, 2024 10:57:41 AM UI.QuanLyNhanVien dialog_setText
+INFO: Người dùng hoaproas123 đã xem chi tiết nhân viên id: 225928208
+
+Jan 16, 2024 10:57:42 AM UI.QuanLyNhanVien btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết nhân viên
+
+Jan 16, 2024 10:57:42 AM UI.QuanLyNhanVien btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết nhân viên
+
+Jan 16, 2024 10:57:48 AM UI.QuanLyNhanVien btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:57:48 AM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 16, 2024 10:58:10 AM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:58:13 AM UI.ChucNang btn_QuanLyTaiKhoanActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Tài Khoản
+
+Jan 16, 2024 10:58:13 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 10:58:15 AM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 16, 2024 10:58:21 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 10:58:21 AM UI.QuanLyTaiKhoan btn_CapNhatThemBox_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật tài khoản nhanvien
+
+Jan 16, 2024 10:58:26 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 10:58:26 AM UI.QuanLyTaiKhoan btn_CapNhatThemBox_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật tài khoản nhanvien
+
+Jan 16, 2024 10:58:28 AM UI.QuanLyTaiKhoan btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:58:33 AM UI.ChucNang btn_QuanLyLichSuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Lịch Sử Thao Tác
+
+Jan 16, 2024 10:58:47 AM UI.LichSu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 10:58:52 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 16, 2024 11:18:45 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng khachhang đã đăng nhập vào hệ thống
+
+Jan 16, 2024 11:19:08 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng khachhang đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 11:19:08 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:19:11 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00001
+
+Jan 16, 2024 11:19:12 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS33343
+
+Jan 16, 2024 11:19:13 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 11:19:15 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 11:19:16 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 11:19:18 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 11:19:18 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 11:19:19 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 11:19:19 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 11:19:20 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS29134
+
+Jan 16, 2024 11:19:21 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS23447
+
+Jan 16, 2024 11:19:22 AM UI.QuanLySach btn_ChiTietBox_ThueActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng mượn sách
+
+Jan 16, 2024 11:19:41 AM UI.QuanLySach muonsach_addCart
+INFO:  Khách hàng mới đã được thêm vào, Mã khách hàng: 0333333333
+
+Jan 16, 2024 11:19:41 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:19:44 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00002
+
+Jan 16, 2024 11:19:45 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00001
+
+Jan 16, 2024 11:19:45 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:19:48 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 16, 2024 11:19:48 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:19:56 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS01745
+
+Jan 16, 2024 11:19:59 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:20:04 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:20:26 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng khachhang đã dùng chức năng trả sách
+
+Jan 16, 2024 11:20:36 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS01745
+
+Jan 16, 2024 11:20:37 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng khachhang đã trả sách, Mã sách: MS01745, Khách hàng trả: 0333333333
+
+Jan 16, 2024 11:20:37 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:20:39 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng khachhang đã xem chi tiết 1 cuốn sách, Mã sách: MS00821
+
+Jan 16, 2024 11:20:40 AM UI.QuanLySach trasach_addCart
+INFO:  Người dùng khachhang đã trả sách, Mã sách: MS00821, Khách hàng trả: 0333333333
+
+Jan 16, 2024 11:20:40 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:20:48 AM UI.QuanLySach load_Table
+INFO:  Người dùng khachhang đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:21:09 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng khachhang trở về màn hình chọn chức năng
+
+Jan 16, 2024 11:21:10 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng khachhang đã đăng xuất
+
+Jan 16, 2024 11:21:17 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 16, 2024 11:21:20 AM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Jan 16, 2024 11:21:21 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 11:21:24 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 11:21:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00004
+
+Jan 16, 2024 11:21:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00009
+
+Jan 16, 2024 11:21:26 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00021
+
+Jan 16, 2024 11:21:27 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00037
+
+Jan 16, 2024 11:21:27 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00039
+
+Jan 16, 2024 11:21:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00055
+
+Jan 16, 2024 11:21:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 16, 2024 11:21:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 16, 2024 11:21:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00059
+
+Jan 16, 2024 11:21:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00067
+
+Jan 16, 2024 11:21:28 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00071
+
+Jan 16, 2024 11:21:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00076
+
+Jan 16, 2024 11:21:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00080
+
+Jan 16, 2024 11:21:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00096
+
+Jan 16, 2024 11:21:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00101
+
+Jan 16, 2024 11:21:29 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00101
+
+Jan 16, 2024 11:21:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00113
+
+Jan 16, 2024 11:21:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00117
+
+Jan 16, 2024 11:21:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00121
+
+Jan 16, 2024 11:21:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00125
+
+Jan 16, 2024 11:21:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00125
+
+Jan 16, 2024 11:21:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:30 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:31 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:31 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:31 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:31 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:31 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:31 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:31 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00124
+
+Jan 16, 2024 11:21:31 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00123
+
+Jan 16, 2024 11:21:32 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00123
+
+Jan 16, 2024 11:21:35 AM UI.QuanLySach btn_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng thêm sách
+
+Jan 16, 2024 11:21:36 AM UI.QuanLySach btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 11:21:37 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00123
+
+Jan 16, 2024 11:21:46 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 11:21:46 AM UI.QuanLySach btn_CapNhatThemBox_ThemActionPerformed
+INFO:  Người dùng hoaproas123 đã thêm sách trưng bày, Mã sách: MS00123
+
+Jan 16, 2024 11:21:48 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 11:21:51 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:21:55 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00123
+
+Jan 16, 2024 11:21:56 AM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Jan 16, 2024 11:21:57 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 11:22:09 AM UI.QuanLySach btn_TimKiemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng tìm kiếm sách
+
+Jan 16, 2024 11:22:11 AM UI.QuanLySach btn_TraSachActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng trả sách
+
+Jan 16, 2024 11:22:12 AM UI.QuanLySach btn_TimKiemActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng tìm kiếm sách
+
+Jan 16, 2024 11:22:13 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH TRƯNG BÀY
+
+Jan 16, 2024 11:22:13 AM UI.QuanLySach btn_TimKiemBox_searchActionPerformed
+INFO:  Người dùng hoaproas123 đã tìm 1 cuốn sách, Nội dung tìm: MS00123
+
+Jan 16, 2024 11:22:36 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 11:22:37 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 11:22:40 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 11:22:43 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 11:23:07 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00123
+
+Jan 16, 2024 11:23:07 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 11:23:09 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 11:23:10 AM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00123
+
+Jan 16, 2024 11:23:13 AM UI.QuanLySach btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 11:23:20 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Jan 16, 2024 11:23:20 AM UI.QuanLySach btn_CapNhatThemBox_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã cập nhật sách, Mã sách: MS00123
+
+Jan 16, 2024 11:23:28 AM UI.QuanLySach btn_SapXepActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng sắp xếp sách
+
+Jan 16, 2024 11:23:30 AM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH KHO
+
+Jan 16, 2024 11:23:51 AM UI.QuanLySach btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 11:23:53 AM UI.ChucNang btn_QuanLyHoaDonActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Hóa Đơn
+
+Jan 16, 2024 11:23:53 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 11:23:57 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 11:24:10 AM UI.QuanLyHoaDon btn_CapNhatActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng cập nhật
+
+Jan 16, 2024 11:24:20 AM UI.QuanLyHoaDon btn_CapNhat_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật hóa đơn 11
+
+Jan 16, 2024 11:24:20 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn đang chờ xử lý
+
+Jan 16, 2024 11:24:21 AM UI.QuanLyHoaDon load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu hóa đơn hoàn thành
+
+Jan 16, 2024 11:24:24 AM UI.QuanLyHoaDon btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết hóa đơn
+
+Jan 16, 2024 11:24:33 AM UI.QuanLyHoaDon btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 11:24:35 AM UI.ChucNang btn_QuanLyKhachHangActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Khách Hàng
+
+Jan 16, 2024 11:24:36 AM UI.QuanLyKhachHang load_Table
+INFO:  Người dùng hoaproas123 đã xem danh sách khách hàng
+
+Jan 16, 2024 11:24:38 AM UI.QuanLyKhachHang btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết khách hàng
+
+Jan 16, 2024 11:24:44 AM UI.QuanLyKhachHang btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 11:24:46 AM UI.ChucNang btn_QuanLyNhanVienActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Nhân Viên
+
+Jan 16, 2024 11:24:46 AM UI.QuanLyNhanVien load_Table
+INFO: Người dùng hoaproas123 đã xem dữ liệu nhân viên
+
+Jan 16, 2024 11:24:47 AM UI.QuanLyNhanVien dialog_setText
+INFO: Người dùng hoaproas123 đã xem chi tiết nhân viên id: 225928208
+
+Jan 16, 2024 11:24:48 AM UI.QuanLyNhanVien btn_ChiTietActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng xem thông tin chi tiết nhân viên
+
+Jan 16, 2024 11:24:51 AM UI.QuanLyNhanVien btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 11:24:52 AM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 16, 2024 11:25:10 AM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 11:25:11 AM UI.ChucNang btn_QuanLyLichSuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Lịch Sử Thao Tác
+
+Jan 16, 2024 11:25:26 AM UI.LichSu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 11:25:27 AM UI.ChucNang btn_QuanLyTaiKhoanActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Tài Khoản
+
+Jan 16, 2024 11:25:27 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 11:25:29 AM UI.QuanLyTaiKhoan btn_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã sử dụng chức năng cập nhật
+
+Jan 16, 2024 11:25:37 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 11:25:37 AM UI.QuanLyTaiKhoan btn_CapNhatThemBox_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật tài khoản nhanvien
+
+Jan 16, 2024 11:25:41 AM UI.QuanLyTaiKhoan load_Table
+INFO: Người dùng hoaproas123 đã xem danh sách tài khoản
+
+Jan 16, 2024 11:25:41 AM UI.QuanLyTaiKhoan btn_CapNhatThemBox_CapNhatActionPerformed
+INFO: Người dùng hoaproas123 đã cập nhật tài khoản nhanvien
+
+Jan 16, 2024 11:25:42 AM UI.QuanLyTaiKhoan btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 16, 2024 11:25:45 AM UI.ChucNang btn_DangXuatActionPerformed
+INFO:  Người dùng hoaproas123 đã đăng xuất
+
+Jan 17, 2024 8:21:59 AM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Jan 17, 2024 8:22:03 AM UI.ChucNang btn_QuanLyDoanhThuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Doanh Thu
+
+Jan 17, 2024 8:22:17 AM UI.QuanLyDoanhThu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Jan 17, 2024 8:22:24 AM UI.ChucNang btn_QuanLyLichSuActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Lịch Sử Thao Tác
+
+Jan 17, 2024 8:23:24 AM UI.LichSu btn_backActionPerformed
+INFO:  Người dùng hoaproas123 trở về màn hình chọn chức năng
+
+Feb 25, 2024 5:35:00 PM UI.DangNhap jButton_loginActionPerformed
+INFO: Người dùng hoaproas123 đã đăng nhập vào hệ thống
+
+Feb 25, 2024 5:35:01 PM UI.ChucNang btn_QuanLySachActionPerformed
+INFO:  Người dùng hoaproas123 đã sử dụng chức năng Quản Lý Sách
+
+Feb 25, 2024 5:35:03 PM UI.QuanLySach load_Table
+INFO:  Người dùng hoaproas123 đã xem dữ liệu SÁCH
+
+Feb 25, 2024 5:35:04 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00005
+
+Feb 25, 2024 5:35:04 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS00004
+
+Feb 25, 2024 5:35:05 PM UI.QuanLySach btn_ChiTietActionPerformed
+INFO:  Người dùng hoaproas123 đã dùng chức năng chi tiết sách
+
+Feb 25, 2024 5:35:06 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37209
+
+Feb 25, 2024 5:35:06 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37207
+
+Feb 25, 2024 5:35:07 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37203
+
+Feb 25, 2024 5:35:07 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37214
+
+Feb 25, 2024 5:35:07 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37210
+
+Feb 25, 2024 5:35:07 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37207
+
+Feb 25, 2024 5:35:07 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37214
+
+Feb 25, 2024 5:35:07 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37222
+
+Feb 25, 2024 5:35:07 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37227
+
+Feb 25, 2024 5:35:08 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37243
+
+Feb 25, 2024 5:35:08 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37247
+
+Feb 25, 2024 5:35:08 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37248
+
+Feb 25, 2024 5:35:08 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37268
+
+Feb 25, 2024 5:35:08 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37272
+
+Feb 25, 2024 5:35:08 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37292
+
+Feb 25, 2024 5:35:08 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37292
+
+Feb 25, 2024 5:35:09 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37316
+
+Feb 25, 2024 5:35:09 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37336
+
+Feb 25, 2024 5:35:09 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37340
+
+Feb 25, 2024 5:35:09 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37340
+
+Feb 25, 2024 5:35:09 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37360
+
+Feb 25, 2024 5:35:09 PM UI.QuanLySach dialog_setText
+INFO:  Người dùng hoaproas123 đã xem chi tiết 1 cuốn sách, Mã sách: MS37363
+

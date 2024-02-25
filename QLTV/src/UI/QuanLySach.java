@@ -1430,12 +1430,14 @@ public class QuanLySach extends javax.swing.JFrame{
         ResultSet hdt= dbqr.ExcuQuery_GetRow("HOADONTRA", "Ngaytra<>'"+today+"' and (Trangthaithanhtoan IS NULL or Trangthaithanhtoan=0)");
         try {
             if(hdm.next()){
+                JOptionPane.showMessageDialog(null, "1","Thông báo",1);
                 dbqr.ExcuQuery_Delete("HOADONMUON", "Ngaymuon<>'"+today+"' and Trangthaihoadon=0");
             }
             if(hdt.next()){
                 dbqr.ExcuQuery_Delete("HOADONTRA", "Ngaytra<>'"+today+"' and (Trangthaithanhtoan IS NULL or Trangthaithanhtoan=0)");     
             }
         } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
             Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
@@ -1524,6 +1526,7 @@ public class QuanLySach extends javax.swing.JFrame{
             }
             
         } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
             Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
         }
     }   
@@ -1541,6 +1544,7 @@ public class QuanLySach extends javax.swing.JFrame{
         try {
             rs.next();
         } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
             Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
         }
 
@@ -1563,6 +1567,7 @@ public class QuanLySach extends javax.swing.JFrame{
            String id = rs.getString(1).substring(2);
            newId = Integer.parseInt(id) + 1;
        } catch (SQLException ex) {
+           JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
            Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
        }
 
@@ -1696,6 +1701,7 @@ public class QuanLySach extends javax.swing.JFrame{
                             }
                     }
                     } catch (SQLException ex) {
+                        JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                         Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex); 
                 }
                     }
@@ -1784,6 +1790,7 @@ public class QuanLySach extends javax.swing.JFrame{
                     logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 d\u00f9ng ch\u1ee9c n\u0103ng m\u01b0\u1ee3n s\u00e1ch\n", username);
                 }
             } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                 Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
@@ -1823,6 +1830,7 @@ public class QuanLySach extends javax.swing.JFrame{
                     sotienconlai=0;
             }
         } catch (SQLException ex) {
+            JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
             Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
         }
         return sotienconlai;
@@ -1847,7 +1855,7 @@ public class QuanLySach extends javax.swing.JFrame{
                     hdt.next();
                 }
                 int id=hdt.getInt(1);
-                dbqr.ExcuQuery_Update("HOADONTRA","Trangthaithanhtoan=0", "Id="+id);
+                dbqr.ExcuQuery_Update("HOADONTRA","Trangthaithanhtoan=0", "Trangthaithanhtoan IS NULL and Id="+id);
                 float sotienconlai=hdt.getFloat(4);
                 Date ngaymuon=hdt.getDate(15);
                 Date getngaytra= new Date(System.currentTimeMillis());
@@ -1925,6 +1933,7 @@ public class QuanLySach extends javax.swing.JFrame{
                 try {
                     max = rs.getInt(8);
                 } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                     Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 if(soluong>max)
@@ -2016,6 +2025,7 @@ public class QuanLySach extends javax.swing.JFrame{
                         logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 th\u00eam s\u00e1ch, M\u00e3 s\u00e1ch: {1}\n", new Object[]{username, masach});
                     }
                 } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                     Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 
@@ -2052,6 +2062,7 @@ public class QuanLySach extends javax.swing.JFrame{
                         logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 th\u00eam s\u00e1ch tr\u01b0ng b\u00e0y, M\u00e3 s\u00e1ch: {1}\n", new Object[]{username, masach});
                     }
                 } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                     Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
                 }              
             }
@@ -2108,6 +2119,7 @@ public class QuanLySach extends javax.swing.JFrame{
                     }
                 }
             } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                 Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
             }
             int choice =JOptionPane.showConfirmDialog(null, "Số tiền cần thanh toán là "+thanhtien+" VNĐ ,Giá  thuê là "+tienthue+"VNĐ/ngày,Bạn có chắc muốn thanh toán?", "Xác nhận thanh toán",2);
@@ -2119,7 +2131,8 @@ public class QuanLySach extends javax.swing.JFrame{
                     }
                     dbqr.ExcuQuery_Update("HOADONMUON", "Trangthaihoadon=1", "SDT='"+SDT+"' and Trangthaihoadon=0");
                 } catch (SQLException ex) {
-//                    Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
+                    JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
+                    Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 load_Table();
                 load_Cart();
@@ -2160,6 +2173,7 @@ public class QuanLySach extends javax.swing.JFrame{
                 }
                 jLabel_thanhtien.setText("Thành Tiền: "+thanhtien);
             } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                 Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
@@ -2182,6 +2196,7 @@ public class QuanLySach extends javax.swing.JFrame{
                 }
                 jLabel_thanhtien.setText("Số Tiền Còn Lại: "+sotienconlai);
             } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                 Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
@@ -2210,6 +2225,7 @@ public class QuanLySach extends javax.swing.JFrame{
                 tienthanhtoan=sach.getFloat(10)*soluong;
                 giathue =sach.getFloat(11)*soluong;
             } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                 Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
             }
             String ngaymuon= LocalDate.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
@@ -2232,6 +2248,7 @@ public class QuanLySach extends javax.swing.JFrame{
                         logger.log(Level.INFO, " Kh\u00e1ch h\u00e0ng m\u1edbi \u0111\u00e3 \u0111\u01b0\u1ee3c th\u00eam v\u00e0o, M\u00e3 kh\u00e1ch h\u00e0ng: {0}\n", SDT);
                     }
                 } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                     Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 ResultSet cart_kh = dbqr.ExcuQuery_GetRow("HOADONMUON", "SDT='"+SDT+"' and Trangthaihoadon=0");
@@ -2274,6 +2291,7 @@ public class QuanLySach extends javax.swing.JFrame{
                                                     +0+")");
                     }
                 } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                     Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
                 }
             }
@@ -2301,6 +2319,7 @@ public class QuanLySach extends javax.swing.JFrame{
                     load_Cart();
                     logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 x\u00f3a 1 cu\u1ed1n S\u00c1CH, m\u00e3 s\u00e1ch {1}\n", new Object[]{username, masach});                
                 } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                     Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex); 
                 }
             }
@@ -2316,6 +2335,7 @@ public class QuanLySach extends javax.swing.JFrame{
                     load_Cart();
                     logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 x\u00f3a 1 cu\u1ed1n S\u00c1CH, m\u00e3 s\u00e1ch {1}\n", new Object[]{username, masach});                
                 } catch (SQLException ex) {
+                    JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                     Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex); 
                 }
             }
@@ -2369,11 +2389,18 @@ public class QuanLySach extends javax.swing.JFrame{
                     }
                     int stateHoanthanh=0;
                     if(tongsoluongtra+soluongtra<=soluongmuon){
-                        if(tongsoluongtra+soluongtra==soluongmuon)
-                            stateHoanthanh=1;
+                        if(tongsoluongtra+soluongtra==soluongmuon){
+                             stateHoanthanh=1;
+                        }
                         // Tính sự chênh lệch giữa hai timestamp và chuyển thành số ngày
                         float sotienconlai=cal_sotienconlai(masach, id, soluongtra);
                         hdt=dbqr.ExcuQuery_GetRow("HOADONTRA", "Id="+id+" and Masach='"+masach+"' and Ngaytra='"+ngaytra+"'");
+                        if(stateHoanthanh==1)
+                        {
+                            dbqr.ExcuQuery_Update("HOADONTRA", 
+                                   "Trangthaihoanthanh="+stateHoanthanh,
+                                    "Id="+id+" and Masach='"+masach+"'");
+                        }
                         if(hdt.next()){
                             if(hdt.getInt(8)==0){
                                 dbqr.ExcuQuery_Update("HOADONTRA", "Soluong="+(soluongtra+hdt.getInt(5))+
@@ -2408,6 +2435,7 @@ public class QuanLySach extends javax.swing.JFrame{
                 }
                 else JOptionPane.showMessageDialog(null,"Thông tin hóa đơn không tồn tại, vui lòng kiểm tra lại!","Thông báo",1);
             } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                 Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
@@ -2484,6 +2512,7 @@ public class QuanLySach extends javax.swing.JFrame{
                    logger.log(Level.INFO, " Ng\u01b0\u1eddi d\u00f9ng {0} \u0111\u00e3 xem chi ti\u1ebft 1 cu\u1ed1n s\u00e1ch, M\u00e3 s\u00e1ch: {1}\n", new Object[]{username, masach});
                    
                } catch (SQLException ex) {
+                   JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                    Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
                }
            } else {
@@ -2582,6 +2611,7 @@ public class QuanLySach extends javax.swing.JFrame{
                 // Tạo một ImageIcon từ hình ảnh đã chỉnh kích thước
                 imageIcon = new ImageIcon(scaledImage);
            } catch (MalformedURLException ex) {
+               JOptionPane.showMessageDialog(null, "Opss có bug ròi T_T","Thông báo",1);
                Logger.getLogger(QuanLySach.class.getName()).log(Level.SEVERE, null, ex);
            }
            
